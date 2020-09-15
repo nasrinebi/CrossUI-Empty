@@ -104,37 +104,37 @@ xui.Class('App', 'xui.Module',{
                     {
                         "id":"c",
                         "caption":"Dry Pond",
-                        "imageClass":"xui-icon-number3"
+                        "imageClass":"xui-icon-number4"
                     },
                     {
                         "id":"c",
                         "caption":"Green Roof",
-                        "imageClass":"xui-icon-number3"
+                        "imageClass":"xui-icon-number5"
                     },
                     {
                         "id":"c",
                         "caption":"Rain Barrel",
-                        "imageClass":"xui-icon-number3"
+                        "imageClass":"xui-icon-number6"
                     },
                     {
                         "id":"c",
                         "caption":"Infiltration Trench",
-                        "imageClass":"xui-icon-number3"
+                        "imageClass":"xui-icon-number7"
                     },
                     {
                         "id":"c",
                         "caption":"Infiltration Basin",
-                        "imageClass":"xui-icon-number3"
+                        "imageClass":"xui-icon-number8"
                     },
                     {
                         "id":"c",
                         "caption":"Vegetated Swale",
-                        "imageClass":"xui-icon-number3"
+                        "imageClass":"xui-icon-number9"
                     },
                     {
                         "id":"d",
                         "caption":"Rain Garden",
-                        "imageClass":"xui-icon-number4"
+                        "imageClass":"xui-icon-number10"
                     }
                 ])
                 .setLeft("14.476190476190476em")
@@ -159,16 +159,15 @@ xui.Class('App', 'xui.Module',{
             );
             
             append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input3")
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput7")
                 .setDirtyMark(false)
-                .setLeft("-3.0476190476190474em")
+                .setLeft("0em")
                 .setTop("21.333333333333332em")
                 .setWidth("18em")
-                .setHeight("2.361904761904762em")
                 .setLabelSize("8em")
-                .setMultiLines(true)
-                .setValue("  General Settings")
+                .setLabelCaption("Cost File")
+                .setType("file")
             );
             
             return children;
