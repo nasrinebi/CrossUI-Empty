@@ -28,7 +28,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("2.2857142857142856em")
                 .setWidth("18em")
                 .setLabelSize("8em")
-                .setLabelCaption("File")
+                .setLabelCaption("DEM")
                 .setType("file")
             );
             
@@ -40,7 +40,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("4.571428571428571em")
                 .setWidth("18em")
                 .setLabelSize("8em")
-                .setLabelCaption("File")
+                .setLabelCaption("Land Use")
                 .setType("file")
             );
             
@@ -52,7 +52,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("6.857142857142857em")
                 .setWidth("18em")
                 .setLabelSize("8em")
-                .setLabelCaption("File")
+                .setLabelCaption("Imperviousness")
                 .setType("file")
             );
             
@@ -64,7 +64,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("9.142857142857142em")
                 .setWidth("18em")
                 .setLabelSize("8em")
-                .setLabelCaption("File")
+                .setLabelCaption("Soil")
                 .setType("file")
             );
             
