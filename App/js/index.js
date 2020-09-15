@@ -135,7 +135,7 @@ xui.Class('App', 'xui.Module',{
                         "id":"j",
                         "caption":"Rain Garden",
                         "imageClass":"xui-icon-number10"
-                    }
+                    },
                 ])
                 .setLeft("14.476190476190476em")
                 .setTop("4.571428571428571em")
