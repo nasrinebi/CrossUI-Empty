@@ -24,7 +24,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput29")
                 .setDirtyMark(false)
-                .setLeft("16em")
+                .setLeft("0.7619047619047619em")
                 .setTop("6.095238095238095em")
                 .setWidth("18em")
                 .setLabelSize("8em")
@@ -36,7 +36,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput30")
                 .setDirtyMark(false)
-                .setLeft("16em")
+                .setLeft("0.7619047619047619em")
                 .setTop("8.380952380952381em")
                 .setWidth("18em")
                 .setLabelSize("8em")
@@ -48,7 +48,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput31")
                 .setDirtyMark(false)
-                .setLeft("16em")
+                .setLeft("0.7619047619047619em")
                 .setTop("10.666666666666666em")
                 .setWidth("18em")
                 .setLabelSize("8em")
@@ -60,7 +60,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput32")
                 .setDirtyMark(false)
-                .setLeft("16em")
+                .setLeft("0.7619047619047619em")
                 .setTop("12.952380952380953em")
                 .setWidth("18em")
                 .setLabelSize("8em")
@@ -72,7 +72,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input7")
                 .setDirtyMark(false)
-                .setLeft("12.19047619047619em")
+                .setLeft("-3.8095238095238093em")
                 .setTop("1.5238095238095237em")
                 .setWidth("24.076190476190476em")
                 .setHeight("2.361904761904762em")
@@ -137,13 +137,73 @@ xui.Class('App', 'xui.Module',{
                         "imageClass":"xui-icon-number4"
                     }
                 ])
-                .setLeft("12.19047619047619em")
-                .setTop("19.047619047619047em")
+                .setLeft("14.476190476190476em")
+                .setTop("4.571428571428571em")
                 .setWidth("26em")
                 .setSelMode("multibycheckbox")
                 .setLabelSize("8em")
-                .setLabelCaption("BMPs")
                 .setValue("a")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input15")
+                .setDirtyMark(false)
+                .setLeft("16em")
+                .setTop("1.5238095238095237em")
+                .setWidth("23.314285714285713em")
+                .setHeight("2.361904761904762em")
+                .setLabelSize("8em")
+                .setMultiLines(true)
+                .setValue("          Selected BMPs")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput105")
+                .setDirtyMark(false)
+                .setLeft("19.80952380952381em")
+                .setTop("36.57142857142857em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("File")
+                .setType("file")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput106")
+                .setDirtyMark(false)
+                .setLeft("27.428571428571427em")
+                .setTop("38.857142857142854em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("File")
+                .setType("file")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput107")
+                .setDirtyMark(false)
+                .setLeft("29.714285714285715em")
+                .setTop("42.666666666666664em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("File")
+                .setType("file")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput108")
+                .setDirtyMark(false)
+                .setLeft("28.19047619047619em")
+                .setTop("43.42857142857143em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("File")
+                .setType("file")
             );
             
             return children;
