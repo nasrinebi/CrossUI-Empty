@@ -254,14 +254,14 @@ xui.Class('App', 'xui.Module',{
                         "disabled":true
                     },                    {
                         "id":"d",
-                        "caption":"Dry Pond",
-                        "imageClass":"xui-icon-number4",
+                        "caption":"Infiltration Basin",
+                        "imageClass":"xui-icon-number8",
                         "disabled":true
                     },
                                         {
                         "id":"d",
-                        "caption":"Dry Pond",
-                        "imageClass":"xui-icon-number4",
+                        "caption":"Vegetated Swale",
+                        "imageClass":"xui-icon-number9",
                         "disabled":true
                     }
                 ])
