@@ -19,7 +19,55 @@ xui.Class('App', 'xui.Module',{
         iniComponents : function(){
             // [[Code created by CrossUI RAD Studio
             var host=this, children=[], append=function(child){children.push(child.get(0));};
-
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput7")
+                .setDirtyMark(false)
+                .setLeft("15.238095238095237em")
+                .setTop("2.2857142857142856em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("File")
+                .setType("file")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput8")
+                .setDirtyMark(false)
+                .setLeft("15.238095238095237em")
+                .setTop("4.571428571428571em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("File")
+                .setType("file")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput9")
+                .setDirtyMark(false)
+                .setLeft("15.238095238095237em")
+                .setTop("6.857142857142857em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("File")
+                .setType("file")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput10")
+                .setDirtyMark(false)
+                .setLeft("15.238095238095237em")
+                .setTop("9.142857142857142em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("File")
+                .setType("file")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
