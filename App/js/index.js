@@ -133,8 +133,8 @@ xui.Class('App', 'xui.Module',{
                     },
                     {
                         "id":"i",
-                        "caption":"Vegetated Swale",
-                        "imageClass":"xui-icon-number9"
+                        "caption":"Rain garden",
+                        "imageClass":"xui-icon-number10"
                     }
               
                 ])
