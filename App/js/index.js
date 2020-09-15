@@ -88,52 +88,52 @@ xui.Class('App', 'xui.Module',{
                 .setItems([
                     {
                         "id":"a",
-                        "caption":"item 1",
+                        "caption":"Bioretention",
                         "imageClass":"xui-icon-number1"
                     },
                     {
                         "id":"b",
-                        "caption":"item 2",
+                        "caption":"Porous Pavement",
                         "imageClass":"xui-icon-number2"
                     },
                     {
                         "id":"c",
-                        "caption":"item 3",
+                        "caption":"Wet Pond",
+                        "imageClass":"xui-icon-number3"
+                    },
+                    {
+                        "id":"c",
+                        "caption":"Dry Pond",
+                        "imageClass":"xui-icon-number3"
+                    },
+                    {
+                        "id":"c",
+                        "caption":"Green Roof",
+                        "imageClass":"xui-icon-number3"
+                    },
+                    {
+                        "id":"c",
+                        "caption":"Rain Barrel",
+                        "imageClass":"xui-icon-number3"
+                    },
+                    {
+                        "id":"c",
+                        "caption":"Infiltration Trench",
                         "imageClass":"xui-icon-number3"
                     },
                                         {
                         "id":"c",
-                        "caption":"item 4",
+                        "caption":"Infiltration Basin",
                         "imageClass":"xui-icon-number3"
                     },
-                                        {
+                    {
                         "id":"c",
-                        "caption":"item 5",
-                        "imageClass":"xui-icon-number3"
-                    },
-                                        {
-                        "id":"c",
-                        "caption":"item 6",
-                        "imageClass":"xui-icon-number3"
-                    },
-                                        {
-                        "id":"c",
-                        "caption":"item 7",
-                        "imageClass":"xui-icon-number3"
-                    },
-                                        {
-                        "id":"c",
-                        "caption":"item 8",
-                        "imageClass":"xui-icon-number3"
-                    },
-                                        {
-                        "id":"c",
-                        "caption":"item 9",
+                        "caption":"Vegetated Swale",
                         "imageClass":"xui-icon-number3"
                     },
                     {
                         "id":"d",
-                        "caption":"item 10",
+                        "caption":"Rain Garden",
                         "imageClass":"xui-icon-number4"
                     }
                 ])
