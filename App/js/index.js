@@ -102,37 +102,37 @@ xui.Class('App', 'xui.Module',{
                         "imageClass":"xui-icon-number3"
                     },
                     {
-                        "id":"c",
+                        "id":"d",
                         "caption":"Dry Pond",
                         "imageClass":"xui-icon-number4"
                     },
                     {
-                        "id":"c",
+                        "id":"e",
                         "caption":"Green Roof",
                         "imageClass":"xui-icon-number5"
                     },
                     {
-                        "id":"c",
+                        "id":"f",
                         "caption":"Rain Barrel",
                         "imageClass":"xui-icon-number6"
                     },
                     {
-                        "id":"c",
+                        "id":"g",
                         "caption":"Infiltration Trench",
                         "imageClass":"xui-icon-number7"
                     },
                     {
-                        "id":"c",
+                        "id":"h",
                         "caption":"Infiltration Basin",
                         "imageClass":"xui-icon-number8"
                     },
                     {
-                        "id":"c",
+                        "id":"i",
                         "caption":"Vegetated Swale",
                         "imageClass":"xui-icon-number9"
                     },
                     {
-                        "id":"d",
+                        "id":"j",
                         "caption":"Rain Garden",
                         "imageClass":"xui-icon-number10"
                     }
