@@ -121,7 +121,7 @@ xui.Class('App', 'xui.Module',{
                         "caption":"Infiltration Trench",
                         "imageClass":"xui-icon-number3"
                     },
-                                        {
+                    {
                         "id":"c",
                         "caption":"Infiltration Basin",
                         "imageClass":"xui-icon-number3"
