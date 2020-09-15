@@ -130,17 +130,12 @@ xui.Class('App', 'xui.Module',{
                         "id":"i",
                         "caption":"Vegetated Swale",
                         "imageClass":"xui-icon-number9"
-                    },
-                    {
-                        "id":"i",
-                        "caption":"Rain garden",
-                        "imageClass":"xui-icon-number10"
                     }
-              
                 ])
-                .setLeft("14.476190476190476em")
+                .setLeft("32.76190476190476em")
                 .setTop("4.571428571428571em")
                 .setWidth("26em")
+                .setHeight("21.866666666666667em")
                 .setSelMode("multibycheckbox")
                 .setLabelSize("8em")
                 .setValue("a")
@@ -150,7 +145,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input15")
                 .setDirtyMark(false)
-                .setLeft("16em")
+                .setLeft("34.285714285714285em")
                 .setTop("1.5238095238095237em")
                 .setWidth("23.314285714285713em")
                 .setHeight("2.361904761904762em")
@@ -164,10 +159,34 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_comboinput7")
                 .setDirtyMark(false)
                 .setLeft("0em")
-                .setTop("21.333333333333332em")
+                .setTop("28.952380952380953em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setLabelCaption("Cost File")
+                .setType("file")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput8")
+                .setDirtyMark(false)
+                .setLeft("0.7619047619047619em")
+                .setTop("15.238095238095237em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("Stream")
+                .setType("file")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput9")
+                .setDirtyMark(false)
+                .setLeft("0.7619047619047619em")
+                .setTop("17.523809523809526em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("Road")
                 .setType("file")
             );
             
