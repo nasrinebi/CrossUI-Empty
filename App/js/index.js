@@ -132,7 +132,7 @@ xui.Class('App', 'xui.Module',{
                         "imageClass":"xui-icon-number9"
                     }
                 ])
-                .setLeft("15.238095238095237em")
+                .setLeft("12.952380952380953em")
                 .setTop("6.095238095238095em")
                 .setWidth("26em")
                 .setHeight("15.00952380952381em")
@@ -145,7 +145,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input15")
                 .setDirtyMark(false)
-                .setLeft("16.761904761904763em")
+                .setLeft("14.476190476190476em")
                 .setTop("1.5238095238095237em")
                 .setWidth("23.314285714285713em")
                 .setHeight("2.361904761904762em")
@@ -194,7 +194,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input10")
                 .setDirtyMark(false)
-                .setLeft("37.333333333333336em")
+                .setLeft("35.04761904761905em")
                 .setTop("1.5238095238095237em")
                 .setWidth("21.02857142857143em")
                 .setHeight("2.361904761904762em")
@@ -207,7 +207,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput43")
                 .setDirtyMark(false)
-                .setLeft("40.38095238095238em")
+                .setLeft("39.61904761904762em")
                 .setTop("5.333333333333333em")
                 .setWidth("18em")
                 .setLabelSize("8em")
@@ -252,7 +252,7 @@ xui.Class('App', 'xui.Module',{
                         "caption":"Infiltration Trench",
                         "imageClass":"xui-icon-number7",
                         "disabled":true
-                    },       
+                    },
                     {
                         "id":"d",
                         "caption":"Infiltration Basin",
