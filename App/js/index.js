@@ -159,51 +159,16 @@ xui.Class('App', 'xui.Module',{
             );
             
             append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput105")
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input3")
                 .setDirtyMark(false)
-                .setLeft("19.80952380952381em")
-                .setTop("36.57142857142857em")
+                .setLeft("-3.0476190476190474em")
+                .setTop("21.333333333333332em")
                 .setWidth("18em")
+                .setHeight("2.361904761904762em")
                 .setLabelSize("8em")
-                .setLabelCaption("File")
-                .setType("file")
-            );
-            
-            append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput106")
-                .setDirtyMark(false)
-                .setLeft("27.428571428571427em")
-                .setTop("38.857142857142854em")
-                .setWidth("18em")
-                .setLabelSize("8em")
-                .setLabelCaption("File")
-                .setType("file")
-            );
-            
-            append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput107")
-                .setDirtyMark(false)
-                .setLeft("29.714285714285715em")
-                .setTop("42.666666666666664em")
-                .setWidth("18em")
-                .setLabelSize("8em")
-                .setLabelCaption("File")
-                .setType("file")
-            );
-            
-            append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput108")
-                .setDirtyMark(false)
-                .setLeft("28.19047619047619em")
-                .setTop("43.42857142857143em")
-                .setWidth("18em")
-                .setLabelSize("8em")
-                .setLabelCaption("File")
-                .setType("file")
+                .setMultiLines(true)
+                .setValue("  General Settings")
             );
             
             return children;
