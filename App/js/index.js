@@ -132,10 +132,10 @@ xui.Class('App', 'xui.Module',{
                         "imageClass":"xui-icon-number9"
                     }
                 ])
-                .setLeft("20.571428571428573em")
-                .setTop("4.571428571428571em")
+                .setLeft("15.238095238095237em")
+                .setTop("6.095238095238095em")
                 .setWidth("26em")
-                .setHeight("21.866666666666667em")
+                .setHeight("15.00952380952381em")
                 .setSelMode("multibycheckbox")
                 .setLabelSize("8em")
                 .setValue("a")
@@ -145,7 +145,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input15")
                 .setDirtyMark(false)
-                .setLeft("22.095238095238095em")
+                .setLeft("16.761904761904763em")
                 .setTop("1.5238095238095237em")
                 .setWidth("23.314285714285713em")
                 .setHeight("2.361904761904762em")
@@ -188,6 +188,54 @@ xui.Class('App', 'xui.Module',{
                 .setLabelSize("8em")
                 .setLabelCaption("Land Ownership")
                 .setType("file")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input10")
+                .setDirtyMark(false)
+                .setLeft("37.333333333333336em")
+                .setTop("1.5238095238095237em")
+                .setWidth("21.02857142857143em")
+                .setHeight("2.361904761904762em")
+                .setLabelSize("8em")
+                .setMultiLines(true)
+                .setValue("            BMP Criteria")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput43")
+                .setDirtyMark(false)
+                .setLeft("40.38095238095238em")
+                .setTop("5.333333333333333em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("Select BMP Type")
+                .setType("listbox")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":"Bioretention",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":"item 2",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":"item 3",
+                        "imageClass":"xui-icon-number3"
+                    },
+                    {
+                        "id":"d",
+                        "caption":"item 4",
+                        "imageClass":"xui-icon-number4",
+                        "disabled":true
+                    }
+                ])
             );
             
             return children;
