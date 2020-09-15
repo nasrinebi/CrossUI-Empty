@@ -221,17 +221,46 @@ xui.Class('App', 'xui.Module',{
                     },
                     {
                         "id":"b",
-                        "caption":"item 2",
+                        "caption":"Porous Pavement",
                         "imageClass":"xui-icon-number2"
                     },
                     {
                         "id":"c",
-                        "caption":"item 3",
+                        "caption":"Wet Pond",
                         "imageClass":"xui-icon-number3"
                     },
                     {
                         "id":"d",
-                        "caption":"item 4",
+                        "caption":"Dry Pond",
+                        "imageClass":"xui-icon-number4",
+                        "disabled":true
+                    },
+                    {
+                        "id":"d",
+                        "caption":"Green Roof",
+                        "imageClass":"xui-icon-number5",
+                        "disabled":true
+                    },
+                                        {
+                        "id":"d",
+                        "caption":"Rain Barrel",
+                        "imageClass":"xui-icon-number6",
+                        "disabled":true
+                    },
+                                        {
+                        "id":"d",
+                        "caption":"Infiltration Trench",
+                        "imageClass":"xui-icon-number7",
+                        "disabled":true
+                    },                    {
+                        "id":"d",
+                        "caption":"Dry Pond",
+                        "imageClass":"xui-icon-number4",
+                        "disabled":true
+                    },
+                                        {
+                        "id":"d",
+                        "caption":"Dry Pond",
                         "imageClass":"xui-icon-number4",
                         "disabled":true
                     }
