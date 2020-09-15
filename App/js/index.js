@@ -194,7 +194,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input10")
                 .setDirtyMark(false)
-                .setLeft("35.04761904761905em")
+                .setLeft("38.857142857142854em")
                 .setTop("1.5238095238095237em")
                 .setWidth("21.02857142857143em")
                 .setHeight("2.361904761904762em")
@@ -207,7 +207,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput43")
                 .setDirtyMark(false)
-                .setLeft("39.61904761904762em")
+                .setLeft("40.38095238095238em")
                 .setTop("5.333333333333333em")
                 .setWidth("18em")
                 .setLabelSize("8em")
@@ -232,38 +232,36 @@ xui.Class('App', 'xui.Module',{
                     {
                         "id":"d",
                         "caption":"Dry Pond",
-                        "imageClass":"xui-icon-number4",
-                        "disabled":true
+                        "imageClass":"xui-icon-number4"   
                     },
                     {
                         "id":"d",
                         "caption":"Green Roof",
-                        "imageClass":"xui-icon-number5",
-                        "disabled":true
+                        "imageClass":"xui-icon-number5"
                     },
                     {
                         "id":"d",
                         "caption":"Rain Barrel",
-                        "imageClass":"xui-icon-number6",
-                        "disabled":true
+                        "imageClass":"xui-icon-number6"
+                        
                     },
                     {
                         "id":"d",
                         "caption":"Infiltration Trench",
-                        "imageClass":"xui-icon-number7",
-                        "disabled":true
+                        "imageClass":"xui-icon-number7"
+                      
                     },
                     {
                         "id":"d",
                         "caption":"Infiltration Basin",
-                        "imageClass":"xui-icon-number8",
-                        "disabled":true
+                        "imageClass":"xui-icon-number8"
+                
                     },
                     {
                         "id":"d",
                         "caption":"Vegetated Swale",
-                        "imageClass":"xui-icon-number9",
-                        "disabled":true
+                        "imageClass":"xui-icon-number9"
+                 
                     }
                 ])
             );
