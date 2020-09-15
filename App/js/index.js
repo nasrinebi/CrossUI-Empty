@@ -22,10 +22,10 @@ xui.Class('App', 'xui.Module',{
             
             append(
                 xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput7")
+                .setHost(host,"xui_ui_comboinput29")
                 .setDirtyMark(false)
-                .setLeft("15.238095238095237em")
-                .setTop("2.2857142857142856em")
+                .setLeft("16em")
+                .setTop("6.095238095238095em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setLabelCaption("DEM")
@@ -34,22 +34,34 @@ xui.Class('App', 'xui.Module',{
             
             append(
                 xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput8")
+                .setHost(host,"xui_ui_comboinput30")
                 .setDirtyMark(false)
-                .setLeft("15.238095238095237em")
-                .setTop("4.571428571428571em")
+                .setLeft("16em")
+                .setTop("8.380952380952381em")
                 .setWidth("18em")
                 .setLabelSize("8em")
-                .setLabelCaption("Land Use")
+                .setLabelCaption("Land use")
                 .setType("file")
             );
             
             append(
                 xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput9")
+                .setHost(host,"xui_ui_comboinput31")
                 .setDirtyMark(false)
-                .setLeft("15.238095238095237em")
-                .setTop("6.857142857142857em")
+                .setLeft("16em")
+                .setTop("10.666666666666666em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("Soil")
+                .setType("file")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput32")
+                .setDirtyMark(false)
+                .setLeft("16em")
+                .setTop("12.952380952380953em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setLabelCaption("Imperviousness")
@@ -57,15 +69,25 @@ xui.Class('App', 'xui.Module',{
             );
             
             append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput10")
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button5")
                 .setDirtyMark(false)
-                .setLeft("15.238095238095237em")
-                .setTop("9.142857142857142em")
-                .setWidth("18em")
+                .setLeft("26.666666666666668em")
+                .setTop("17.523809523809526em")
+                .setCaption("Next")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input7")
+                .setDirtyMark(false)
+                .setLeft("12.19047619047619em")
+                .setTop("1.5238095238095237em")
+                .setWidth("24.076190476190476em")
+                .setHeight("2.361904761904762em")
                 .setLabelSize("8em")
-                .setLabelCaption("Soil")
-                .setType("file")
+                .setMultiLines(true)
+                .setValue("     Watershed Charachteristics")
             );
             
             return children;
