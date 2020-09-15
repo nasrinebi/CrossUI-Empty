@@ -132,7 +132,7 @@ xui.Class('App', 'xui.Module',{
                         "imageClass":"xui-icon-number9"
                     }
                 ])
-                .setLeft("32.76190476190476em")
+                .setLeft("20.571428571428573em")
                 .setTop("4.571428571428571em")
                 .setWidth("26em")
                 .setHeight("21.866666666666667em")
@@ -145,25 +145,13 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input15")
                 .setDirtyMark(false)
-                .setLeft("34.285714285714285em")
+                .setLeft("22.095238095238095em")
                 .setTop("1.5238095238095237em")
                 .setWidth("23.314285714285713em")
                 .setHeight("2.361904761904762em")
                 .setLabelSize("8em")
                 .setMultiLines(true)
                 .setValue("          Selected BMPs")
-            );
-            
-            append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput7")
-                .setDirtyMark(false)
-                .setLeft("0em")
-                .setTop("28.952380952380953em")
-                .setWidth("18em")
-                .setLabelSize("8em")
-                .setLabelCaption("Cost File")
-                .setType("file")
             );
             
             append(
@@ -187,6 +175,18 @@ xui.Class('App', 'xui.Module',{
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setLabelCaption("Road")
+                .setType("file")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput27")
+                .setDirtyMark(false)
+                .setLeft("0.7619047619047619em")
+                .setTop("19.80952380952381em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("Land Ownership")
                 .setType("file")
             );
             
