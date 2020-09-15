@@ -241,24 +241,25 @@ xui.Class('App', 'xui.Module',{
                         "imageClass":"xui-icon-number5",
                         "disabled":true
                     },
-                                        {
+                    {
                         "id":"d",
                         "caption":"Rain Barrel",
                         "imageClass":"xui-icon-number6",
                         "disabled":true
                     },
-                                        {
+                    {
                         "id":"d",
                         "caption":"Infiltration Trench",
                         "imageClass":"xui-icon-number7",
                         "disabled":true
-                    },                    {
+                    },       
+                    {
                         "id":"d",
                         "caption":"Infiltration Basin",
                         "imageClass":"xui-icon-number8",
                         "disabled":true
                     },
-                                        {
+                    {
                         "id":"d",
                         "caption":"Vegetated Swale",
                         "imageClass":"xui-icon-number9",
