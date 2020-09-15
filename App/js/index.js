@@ -69,15 +69,6 @@ xui.Class('App', 'xui.Module',{
             );
             
             append(
-                xui.create("xui.UI.Button")
-                .setHost(host,"xui_ui_button5")
-                .setDirtyMark(false)
-                .setLeft("26.666666666666668em")
-                .setTop("17.523809523809526em")
-                .setCaption("Next")
-            );
-            
-            append(
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input7")
                 .setDirtyMark(false)
@@ -88,6 +79,42 @@ xui.Class('App', 'xui.Module',{
                 .setLabelSize("8em")
                 .setMultiLines(true)
                 .setValue("     Watershed Charachteristics")
+            );
+            
+            append(
+                xui.create("xui.UI.List")
+                .setHost(host,"xui_ui_list8")
+                .setDirtyMark(false)
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":"item 1",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":"item 2",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":"item 3",
+                        "imageClass":"xui-icon-number3"
+                    },
+                    {
+                        "id":"d",
+                        "caption":"item 4",
+                        "imageClass":"xui-icon-number4",
+                        "disabled":true
+                    }
+                ])
+                .setLeft("13.714285714285714em")
+                .setTop("17.523809523809526em")
+                .setWidth("26em")
+                .setSelMode("multibycheckbox")
+                .setLabelSize("8em")
+                .setLabelCaption("BMPs")
+                .setValue("a")
             );
             
             return children;
