@@ -1124,9 +1124,15 @@ xui.Class('App', 'xui.Module',{
                         "desc":"Action 1",
                         "type":"page",
                         "target":"App",
-                        "args":[true],
-                        "method":"switch",
-                        "event":1
+                        "args":[
+                            { }
+                        ],
+                        "method":"open",
+                        "event":1,
+                        "timeout":100,
+                        "resetid":"",
+                        "okFlag":"_confirm_yes",
+                        "koFlag":"_confirm_no"
                     }
                 ])
             );
