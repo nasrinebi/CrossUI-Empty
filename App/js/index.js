@@ -132,7 +132,7 @@ xui.Class('App', 'xui.Module',{
                         "imageClass":"xui-icon-number9"
                     }
                 ])
-                .setLeft("26.666666666666668em")
+                .setLeft("22.857142857142858em")
                 .setTop("3.8095238095238093em")
                 .setWidth("26em")
                 .setHeight("15.00952380952381em")
@@ -145,7 +145,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input15")
                 .setDirtyMark(false)
-                .setLeft("28.952380952380953em")
+                .setLeft("25.142857142857142em")
                 .setTop("0.7619047619047619em")
                 .setWidth("23.314285714285713em")
                 .setHeight("2.361904761904762em")
@@ -1108,6 +1108,16 @@ xui.Class('App', 'xui.Module',{
                 .setTop("27.35238095238095em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
+            );
+            
+            append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button8")
+                .setDirtyMark(false)
+                .setLeft("53.333333333333336em")
+                .setTop("6.857142857142857em")
+                .setCaption("           Run")
+                .setImageClass("xui-icon-xui")
             );
             
             return children;
