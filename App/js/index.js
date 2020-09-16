@@ -478,7 +478,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("44.19047619047619em")
                 .setWidth("10.361904761904762em")
                 .setLabelSize("8em")
-                .setValue("-")
+                .setValue("       -")
             );
             
             return children;
