@@ -1127,7 +1127,7 @@ xui.Class('App', 'xui.Module',{
                         "args":[
                             "https://ibb.co/GxkGd65"
                         ],
-                        "method":"open----_blank",
+                        "method":"open----_self",
                         "event":1,
                         "okFlag":"_DI_succeed",
                         "koFlag":"_DI_fail",
