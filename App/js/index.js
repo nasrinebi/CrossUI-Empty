@@ -1184,6 +1184,16 @@ xui.Class('App', 'xui.Module',{
                 .setValue("          RSWMM-Cost")
             );
             
+            append(
+                xui.create("xui.UI.Image")
+                .setHost(host,"xui_ui_image5")
+                .setLeft("60.95238095238095em")
+                .setTop("6.095238095238095em")
+                .setWidth("17.066666666666666em")
+                .setHeight("12.495238095238095em")
+                .setSrc("{/}img/earth111mod3fafig3.png.png")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
