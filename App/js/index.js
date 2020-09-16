@@ -1119,6 +1119,21 @@ xui.Class('App', 'xui.Module',{
                 .setCaption("           Run")
                 .setImage("{/}img/WIN_20200127_19_29_58_Pro.jpg")
                 .setImageClass("xui-icon-xui")
+                .onClick([
+                    {
+                        "desc":"Action 1",
+                        "type":"other",
+                        "target":"msg",
+                        "args":[
+                            "Running",
+                            undefined,
+                            200,
+                            5000
+                        ],
+                        "method":"message",
+                        "event":1
+                    }
+                ])
             );
             
             append(
