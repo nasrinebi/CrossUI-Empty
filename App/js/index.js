@@ -1121,16 +1121,6 @@ xui.Class('App', 'xui.Module',{
                 .setType("file")
             );
             
-            append(
-                xui.create("xui.UI.Button")
-                .setHost(host,"xui_ui_button20")
-                .setDirtyMark(false)
-                .setLeft("51.80952380952381em")
-                .setTop("9.904761904761905em")
-                .setCaption("Status Button")
-                .setType("status")
-            );
-            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
