@@ -1122,17 +1122,13 @@ xui.Class('App', 'xui.Module',{
                 .onClick([
                     {
                         "desc":"Action 1",
-                        "type":"page",
-                        "target":"App",
+                        "type":"other",
+                        "target":"url",
                         "args":[
-                            { }
+                            "https://drive.google.com/drive/u/0/my-drive/WIN_20200127_19_29_58_Pro.jpg"
                         ],
-                        "method":"open",
-                        "event":1,
-                        "timeout":100,
-                        "resetid":"",
-                        "okFlag":"_confirm_yes",
-                        "koFlag":"_confirm_no"
+                        "method":"open----_blank",
+                        "event":1
                     }
                 ])
             );
