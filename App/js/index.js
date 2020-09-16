@@ -195,7 +195,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input37")
                 .setDirtyMark(false)
                 .setLeft("-6.857142857142857em")
-                .setTop("27.428571428571427em")
+                .setTop("25.066666666666666em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setValue("       Bioretention")
@@ -206,7 +206,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input40")
                 .setDirtyMark(false)
                 .setLeft("-6.857142857142857em")
-                .setTop("30.476190476190474em")
+                .setTop("28.114285714285714em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setValue("Porous Pavement")
@@ -217,7 +217,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input43")
                 .setDirtyMark(false)
                 .setLeft("-6.857142857142857em")
-                .setTop("33.523809523809526em")
+                .setTop("31.16190476190476em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setValue("        Wet Pond")
@@ -228,7 +228,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input46")
                 .setDirtyMark(false)
                 .setLeft("-6.857142857142857em")
-                .setTop("36.57142857142857em")
+                .setTop("34.20952380952381em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setValue("        Dry Pond")
@@ -239,7 +239,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input49")
                 .setDirtyMark(false)
                 .setLeft("-6.857142857142857em")
-                .setTop("39.61904761904762em")
+                .setTop("37.25714285714286em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setValue("      Green Roof")
@@ -250,7 +250,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input52")
                 .setDirtyMark(false)
                 .setLeft("-6.857142857142857em")
-                .setTop("42.666666666666664em")
+                .setTop("40.304761904761904em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setValue("      Rain Barrel")
@@ -261,7 +261,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input55")
                 .setDirtyMark(false)
                 .setLeft("-6.857142857142857em")
-                .setTop("45.714285714285715em")
+                .setTop("43.352380952380955em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setValue("   Infiltration Trench")
@@ -272,7 +272,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input58")
                 .setDirtyMark(false)
                 .setLeft("-6.857142857142857em")
-                .setTop("48.76190476190476em")
+                .setTop("46.4em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setValue("   Infiltration Basin")
@@ -283,7 +283,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input61")
                 .setDirtyMark(false)
                 .setLeft("-6.857142857142857em")
-                .setTop("51.80952380952381em")
+                .setTop("49.44761904761905em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setValue("  Vegetated Swale")
@@ -294,7 +294,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input64")
                 .setDirtyMark(false)
                 .setLeft("3.0476190476190474em")
-                .setTop("25.142857142857142em")
+                .setTop("22.78095238095238em")
                 .setWidth("19.504761904761907em")
                 .setHeight("1.7523809523809524em")
                 .setLabelSize("8em")
@@ -306,7 +306,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input69")
                 .setDirtyMark(false)
                 .setLeft("15.238095238095237em")
-                .setTop("25.142857142857142em")
+                .setTop("22.78095238095238em")
                 .setWidth("14.17142857142857em")
                 .setLabelSize("8em")
                 .setValue("  Slope (%)")
@@ -317,7 +317,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input72")
                 .setDirtyMark(false)
                 .setLeft("22.095238095238095em")
-                .setTop("25.142857142857142em")
+                .setTop("22.78095238095238em")
                 .setWidth("16.457142857142856em")
                 .setLabelSize("8em")
                 .setValue("  Impervious (%)")
@@ -328,7 +328,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input75")
                 .setDirtyMark(false)
                 .setLeft("31.238095238095237em")
-                .setTop("25.142857142857142em")
+                .setTop("22.78095238095238em")
                 .setWidth("14.17142857142857em")
                 .setLabelSize("8em")
                 .setValue(" Soil Group")
@@ -339,7 +339,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input78")
                 .setDirtyMark(false)
                 .setLeft("38.01904761904762em")
-                .setTop("25.142857142857142em")
+                .setTop("22.78095238095238em")
                 .setWidth("14.933333333333334em")
                 .setLabelSize("8em")
                 .setValue("GW Table (ft)")
@@ -350,7 +350,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input81")
                 .setDirtyMark(false)
                 .setLeft("45.63809523809524em")
-                .setTop("25.142857142857142em")
+                .setTop("22.78095238095238em")
                 .setWidth("15.923809523809524em")
                 .setLabelSize("8em")
                 .setValue("Road Buffer (ft)")
@@ -361,7 +361,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input84")
                 .setDirtyMark(false)
                 .setLeft("54.01904761904762em")
-                .setTop("25.142857142857142em")
+                .setTop("22.78095238095238em")
                 .setWidth("17.21904761904762em")
                 .setLabelSize("8em")
                 .setValue("Building Buffer (ft)")
@@ -372,7 +372,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input41")
                 .setDirtyMark(false)
                 .setLeft("63.923809523809524em")
-                .setTop("25.142857142857142em")
+                .setTop("22.78095238095238em")
                 .setWidth("17.21904761904762em")
                 .setLabelSize("8em")
                 .setValue("Stream Buffer (ft)")
@@ -395,7 +395,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox4")
                 .setDirtyMark(false)
                 .setLeft("14.476190476190476em")
-                .setTop("27.428571428571427em")
+                .setTop("25.066666666666666em")
                 .setWidth("12em")
                 .setCaption("<2")
             );
@@ -405,7 +405,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox7")
                 .setDirtyMark(false)
                 .setLeft("14.476190476190476em")
-                .setTop("30.476190476190474em")
+                .setTop("28.114285714285714em")
                 .setWidth("12em")
                 .setCaption("<3")
             );
@@ -415,7 +415,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox8")
                 .setDirtyMark(false)
                 .setLeft("14.476190476190476em")
-                .setTop("33.523809523809526em")
+                .setTop("31.16190476190476em")
                 .setWidth("12em")
                 .setCaption(">25")
             );
@@ -425,7 +425,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox9")
                 .setDirtyMark(false)
                 .setLeft("14.476190476190476em")
-                .setTop("36.57142857142857em")
+                .setTop("34.20952380952381em")
                 .setWidth("12em")
                 .setCaption(">10")
             );
@@ -435,7 +435,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox12")
                 .setDirtyMark(false)
                 .setLeft("14.476190476190476em")
-                .setTop("45.714285714285715em")
+                .setTop("43.352380952380955em")
                 .setWidth("12em")
                 .setCaption("<5")
             );
@@ -445,7 +445,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox13")
                 .setDirtyMark(false)
                 .setLeft("14.476190476190476em")
-                .setTop("48.76190476190476em")
+                .setTop("46.4em")
                 .setWidth("12em")
                 .setCaption("<10")
             );
@@ -455,7 +455,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox14")
                 .setDirtyMark(false)
                 .setLeft("14.476190476190476em")
-                .setTop("51.80952380952381em")
+                .setTop("49.44761904761905em")
                 .setWidth("12em")
                 .setCaption("<5")
             );
@@ -465,7 +465,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input129")
                 .setDirtyMark(false)
                 .setLeft("13.714285714285714em")
-                .setTop("39.61904761904762em")
+                .setTop("37.25714285714286em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -475,7 +475,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input132")
                 .setDirtyMark(false)
                 .setLeft("13.714285714285714em")
-                .setTop("42.666666666666664em")
+                .setTop("40.304761904761904em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -485,7 +485,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox49")
                 .setDirtyMark(false)
                 .setLeft("24.38095238095238em")
-                .setTop("27.35238095238095em")
+                .setTop("24.99047619047619em")
                 .setWidth("12em")
                 .setCaption("<5")
             );
@@ -495,7 +495,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox50")
                 .setDirtyMark(false)
                 .setLeft("24.38095238095238em")
-                .setTop("30.476190476190474em")
+                .setTop("28.114285714285714em")
                 .setWidth("12em")
                 .setCaption("<2")
             );
@@ -505,7 +505,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox51")
                 .setDirtyMark(false)
                 .setLeft("24.38095238095238em")
-                .setTop("33.523809523809526em")
+                .setTop("31.16190476190476em")
                 .setWidth("12em")
                 .setCaption("<2")
             );
@@ -515,7 +515,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox52")
                 .setDirtyMark(false)
                 .setLeft("24.38095238095238em")
-                .setTop("36.57142857142857em")
+                .setTop("34.20952380952381em")
                 .setWidth("12em")
                 .setCaption("<15")
             );
@@ -525,7 +525,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox57")
                 .setDirtyMark(false)
                 .setLeft("24.38095238095238em")
-                .setTop("45.714285714285715em")
+                .setTop("43.352380952380955em")
                 .setWidth("12em")
                 .setCaption("<15")
             );
@@ -535,7 +535,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox58")
                 .setDirtyMark(false)
                 .setLeft("24.38095238095238em")
-                .setTop("48.76190476190476em")
+                .setTop("46.4em")
                 .setWidth("12em")
                 .setCaption("<15")
             );
@@ -545,7 +545,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox59")
                 .setDirtyMark(false)
                 .setLeft("24.38095238095238em")
-                .setTop("51.80952380952381em")
+                .setTop("49.44761904761905em")
                 .setWidth("12em")
                 .setCaption("<4")
             );
@@ -555,7 +555,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox92")
                 .setDirtyMark(false)
                 .setLeft("32em")
-                .setTop("27.504761904761907em")
+                .setTop("25.142857142857142em")
                 .setWidth("12em")
                 .setCaption(">0")
             );
@@ -565,7 +565,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox93")
                 .setDirtyMark(false)
                 .setLeft("32em")
-                .setTop("30.552380952380954em")
+                .setTop("28.19047619047619em")
                 .setWidth("12em")
                 .setCaption(">0")
             );
@@ -575,7 +575,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox94")
                 .setDirtyMark(false)
                 .setLeft("32em")
-                .setTop("33.6em")
+                .setTop("31.238095238095237em")
                 .setWidth("12em")
                 .setCaption(">0")
             );
@@ -585,7 +585,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox95")
                 .setDirtyMark(false)
                 .setLeft("32em")
-                .setTop("36.647619047619045em")
+                .setTop("34.285714285714285em")
                 .setWidth("12em")
                 .setCaption(">0")
             );
@@ -595,7 +595,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox96")
                 .setDirtyMark(false)
                 .setLeft("32em")
-                .setTop("45.79047619047619em")
+                .setTop("43.42857142857143em")
                 .setWidth("12em")
                 .setCaption(">0")
             );
@@ -605,7 +605,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox97")
                 .setDirtyMark(false)
                 .setLeft("32em")
-                .setTop("48.838095238095235em")
+                .setTop("46.476190476190474em")
                 .setWidth("12em")
                 .setCaption(">0")
             );
@@ -615,7 +615,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox98")
                 .setDirtyMark(false)
                 .setLeft("32em")
-                .setTop("51.885714285714286em")
+                .setTop("49.523809523809526em")
                 .setWidth("12em")
                 .setCaption(">0")
             );
@@ -625,7 +625,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox99")
                 .setDirtyMark(false)
                 .setLeft("40.38095238095238em")
-                .setTop("27.428571428571427em")
+                .setTop("25.066666666666666em")
                 .setWidth("12em")
                 .setCaption("A-D")
             );
@@ -635,7 +635,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox100")
                 .setDirtyMark(false)
                 .setLeft("40.38095238095238em")
-                .setTop("30.552380952380954em")
+                .setTop("28.19047619047619em")
                 .setWidth("12em")
                 .setCaption("A-D")
             );
@@ -645,7 +645,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox101")
                 .setDirtyMark(false)
                 .setLeft("40.38095238095238em")
-                .setTop("33.6em")
+                .setTop("31.238095238095237em")
                 .setWidth("12em")
                 .setCaption("A-D")
             );
@@ -655,7 +655,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox102")
                 .setDirtyMark(false)
                 .setLeft("40.38095238095238em")
-                .setTop("36.647619047619045em")
+                .setTop("34.285714285714285em")
                 .setWidth("12em")
                 .setCaption("A-D")
             );
@@ -665,7 +665,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox105")
                 .setDirtyMark(false)
                 .setLeft("40.38095238095238em")
-                .setTop("45.79047619047619em")
+                .setTop("43.42857142857143em")
                 .setWidth("12em")
                 .setCaption("A-D")
             );
@@ -675,7 +675,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox106")
                 .setDirtyMark(false)
                 .setLeft("40.38095238095238em")
-                .setTop("48.838095238095235em")
+                .setTop("46.476190476190474em")
                 .setWidth("12em")
                 .setCaption("A-D")
             );
@@ -685,7 +685,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox107")
                 .setDirtyMark(false)
                 .setLeft("40.38095238095238em")
-                .setTop("51.885714285714286em")
+                .setTop("49.523809523809526em")
                 .setWidth("12em")
                 .setCaption("A-D")
             );
@@ -695,7 +695,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input135")
                 .setDirtyMark(false)
                 .setLeft("22.857142857142858em")
-                .setTop("39.61904761904762em")
+                .setTop("37.25714285714286em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -705,7 +705,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input136")
                 .setDirtyMark(false)
                 .setLeft("22.857142857142858em")
-                .setTop("42.666666666666664em")
+                .setTop("40.304761904761904em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -715,7 +715,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input139")
                 .setDirtyMark(false)
                 .setLeft("32em")
-                .setTop("39.61904761904762em")
+                .setTop("37.25714285714286em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -725,7 +725,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input140")
                 .setDirtyMark(false)
                 .setLeft("32em")
-                .setTop("42.666666666666664em")
+                .setTop("40.304761904761904em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -735,7 +735,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input143")
                 .setDirtyMark(false)
                 .setLeft("39.61904761904762em")
-                .setTop("39.61904761904762em")
+                .setTop("37.25714285714286em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -745,7 +745,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input144")
                 .setDirtyMark(false)
                 .setLeft("39.61904761904762em")
-                .setTop("42.666666666666664em")
+                .setTop("40.304761904761904em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -755,7 +755,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox210")
                 .setDirtyMark(false)
                 .setLeft("47.23809523809524em")
-                .setTop("27.428571428571427em")
+                .setTop("25.066666666666666em")
                 .setWidth("12em")
                 .setCaption(">2")
             );
@@ -765,7 +765,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox211")
                 .setDirtyMark(false)
                 .setLeft("47.23809523809524em")
-                .setTop("30.476190476190474em")
+                .setTop("28.114285714285714em")
                 .setWidth("12em")
                 .setCaption(">2")
             );
@@ -775,7 +775,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox212")
                 .setDirtyMark(false)
                 .setLeft("47.23809523809524em")
-                .setTop("33.523809523809526em")
+                .setTop("31.16190476190476em")
                 .setWidth("12em")
                 .setCaption(">4")
             );
@@ -785,7 +785,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox213")
                 .setDirtyMark(false)
                 .setLeft("47.23809523809524em")
-                .setTop("36.57142857142857em")
+                .setTop("34.20952380952381em")
                 .setWidth("12em")
                 .setCaption(">4")
             );
@@ -795,7 +795,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox214")
                 .setDirtyMark(false)
                 .setLeft("47.23809523809524em")
-                .setTop("45.714285714285715em")
+                .setTop("43.352380952380955em")
                 .setWidth("12em")
                 .setCaption(">4")
             );
@@ -805,7 +805,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox215")
                 .setDirtyMark(false)
                 .setLeft("47.23809523809524em")
-                .setTop("48.76190476190476em")
+                .setTop("46.4em")
                 .setWidth("12em")
                 .setCaption(">4")
             );
@@ -815,7 +815,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox216")
                 .setDirtyMark(false)
                 .setLeft("47.23809523809524em")
-                .setTop("51.80952380952381em")
+                .setTop("49.44761904761905em")
                 .setWidth("12em")
                 .setCaption(">2")
             );
@@ -825,7 +825,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input169")
                 .setDirtyMark(false)
                 .setLeft("46.476190476190474em")
-                .setTop("39.61904761904762em")
+                .setTop("37.25714285714286em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -835,7 +835,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input170")
                 .setDirtyMark(false)
                 .setLeft("46.476190476190474em")
-                .setTop("42.666666666666664em")
+                .setTop("40.304761904761904em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -845,7 +845,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox217")
                 .setDirtyMark(false)
                 .setLeft("55.542857142857144em")
-                .setTop("27.428571428571427em")
+                .setTop("25.066666666666666em")
                 .setWidth("12em")
                 .setCaption("<100")
             );
@@ -855,7 +855,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox223")
                 .setDirtyMark(false)
                 .setLeft("54.78095238095238em")
-                .setTop("51.80952380952381em")
+                .setTop("49.44761904761905em")
                 .setWidth("12em")
                 .setCaption("<100")
             );
@@ -865,7 +865,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox231")
                 .setDirtyMark(false)
                 .setLeft("73.82857142857142em")
-                .setTop("27.428571428571427em")
+                .setTop("25.066666666666666em")
                 .setWidth("12em")
                 .setCaption(">100")
             );
@@ -875,7 +875,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox233")
                 .setDirtyMark(false)
                 .setLeft("73.82857142857142em")
-                .setTop("33.523809523809526em")
+                .setTop("31.16190476190476em")
                 .setWidth("12em")
                 .setCaption(">100")
             );
@@ -885,7 +885,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox234")
                 .setDirtyMark(false)
                 .setLeft("73.82857142857142em")
-                .setTop("36.57142857142857em")
+                .setTop("34.20952380952381em")
                 .setWidth("12em")
                 .setCaption(">100")
             );
@@ -895,7 +895,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox235")
                 .setDirtyMark(false)
                 .setLeft("73.82857142857142em")
-                .setTop("45.63809523809524em")
+                .setTop("43.27619047619048em")
                 .setWidth("12em")
                 .setCaption(">100")
             );
@@ -905,7 +905,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox236")
                 .setDirtyMark(false)
                 .setLeft("73.82857142857142em")
-                .setTop("48.68571428571428em")
+                .setTop("46.32380952380952em")
                 .setWidth("12em")
                 .setCaption(">100")
             );
@@ -915,7 +915,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input171")
                 .setDirtyMark(false)
                 .setLeft("54.78095238095238em")
-                .setTop("39.61904761904762em")
+                .setTop("37.25714285714286em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -925,7 +925,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input172")
                 .setDirtyMark(false)
                 .setLeft("54.78095238095238em")
-                .setTop("42.666666666666664em")
+                .setTop("40.304761904761904em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -935,7 +935,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input173")
                 .setDirtyMark(false)
                 .setLeft("63.161904761904765em")
-                .setTop("39.61904761904762em")
+                .setTop("37.25714285714286em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -945,7 +945,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input175")
                 .setDirtyMark(false)
                 .setLeft("73.06666666666666em")
-                .setTop("39.61904761904762em")
+                .setTop("37.25714285714286em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -955,7 +955,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input176")
                 .setDirtyMark(false)
                 .setLeft("73.06666666666666em")
-                .setTop("42.59047619047619em")
+                .setTop("40.22857142857143em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -965,7 +965,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input214")
                 .setDirtyMark(false)
                 .setLeft("54.78095238095238em")
-                .setTop("45.714285714285715em")
+                .setTop("43.352380952380955em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -975,7 +975,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input215")
                 .setDirtyMark(false)
                 .setLeft("54.78095238095238em")
-                .setTop("48.76190476190476em")
+                .setTop("46.4em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -985,7 +985,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input216")
                 .setDirtyMark(false)
                 .setLeft("54.78095238095238em")
-                .setTop("30.476190476190474em")
+                .setTop("28.114285714285714em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -995,7 +995,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input220")
                 .setDirtyMark(false)
                 .setLeft("54.78095238095238em")
-                .setTop("33.523809523809526em")
+                .setTop("31.16190476190476em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -1005,7 +1005,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input221")
                 .setDirtyMark(false)
                 .setLeft("54.78095238095238em")
-                .setTop("36.57142857142857em")
+                .setTop("34.20952380952381em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -1015,7 +1015,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_checkbox296")
                 .setDirtyMark(false)
                 .setLeft("63.923809523809524em")
-                .setTop("42.666666666666664em")
+                .setTop("40.304761904761904em")
                 .setWidth("12em")
                 .setCaption("<30")
             );
@@ -1025,7 +1025,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input224")
                 .setDirtyMark(false)
                 .setLeft("63.161904761904765em")
-                .setTop("27.428571428571427em")
+                .setTop("25.066666666666666em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -1035,7 +1035,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input225")
                 .setDirtyMark(false)
                 .setLeft("63.161904761904765em")
-                .setTop("30.476190476190474em")
+                .setTop("28.114285714285714em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -1045,7 +1045,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input226")
                 .setDirtyMark(false)
                 .setLeft("63.161904761904765em")
-                .setTop("33.523809523809526em")
+                .setTop("31.16190476190476em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -1055,7 +1055,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input227")
                 .setDirtyMark(false)
                 .setLeft("63.161904761904765em")
-                .setTop("36.57142857142857em")
+                .setTop("34.20952380952381em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -1065,7 +1065,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input228")
                 .setDirtyMark(false)
                 .setLeft("63.161904761904765em")
-                .setTop("45.714285714285715em")
+                .setTop("43.352380952380955em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -1075,7 +1075,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input229")
                 .setDirtyMark(false)
                 .setLeft("63.161904761904765em")
-                .setTop("48.76190476190476em")
+                .setTop("46.4em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -1085,7 +1085,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input230")
                 .setDirtyMark(false)
                 .setLeft("63.161904761904765em")
-                .setTop("51.80952380952381em")
+                .setTop("49.44761904761905em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -1095,7 +1095,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input233")
                 .setDirtyMark(false)
                 .setLeft("73.06666666666666em")
-                .setTop("51.733333333333334em")
+                .setTop("49.371428571428574em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
@@ -1105,7 +1105,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_input236")
                 .setDirtyMark(false)
                 .setLeft("73.06666666666666em")
-                .setTop("30.476190476190474em")
+                .setTop("28.114285714285714em")
                 .setWidth("4.647619047619048em")
                 .setValue("    NA")
             );
