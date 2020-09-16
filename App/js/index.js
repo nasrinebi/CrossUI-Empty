@@ -1119,20 +1119,30 @@ xui.Class('App', 'xui.Module',{
                 .setCaption("           Run")
                 .setImage("{/}img/WIN_20200127_19_29_58_Pro.jpg")
                 .setImageClass("xui-icon-xui")
+            );
+            
+            append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button17")
+                .setDirtyMark(false)
+                .setLeft("52.57142857142857em")
+                .setTop("11.428571428571429em")
+                .setCaption("Save")
+                .setImage("{/}img/WIN_20200127_19_29_58_Pro.jpg")
+                .setImageClass("xui-icon-xui")
                 .onClick([
                     {
                         "desc":"Action 1",
                         "type":"other",
-                        "target":"url",
+                        "target":"msg",
                         "args":[
-                            "https://imagizer.imageshack.com/img923/3458/f1Rdv1.png"
+                            "",
+                            "Saving"
                         ],
-                        "method":"open----_self",
-                        "event":1,
-                        "okFlag":"_DI_succeed",
-                        "koFlag":"_DI_fail",
-                        "timeout":320,
-                        "resetid":""
+                        "method":"pop",
+                        "timeout":200,
+                        "resetid":"",
+                        "event":1
                     }
                 ])
             );
