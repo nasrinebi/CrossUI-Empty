@@ -21,6 +21,12 @@ xui.Class('App', 'xui.Module',{
             var host=this, children=[], append=function(child){children.push(child.get(0));};
             
             append(
+                xui.create("xui.APICaller")
+                .setHost(host,"api_1")
+                .setName("api_1")
+            );
+            
+            append(
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input7")
                 .setDirtyMark(false)
@@ -1165,6 +1171,27 @@ xui.Class('App', 'xui.Module',{
                         "event":1
                     }
                 ])
+            );
+            
+            append(
+                xui.create("xui.UI.Image")
+                .setHost(host,"xui_ui_image4")
+                .setLeft("60.19047619047619em")
+                .setTop("2.2857142857142856em")
+                .setWidth("29.866666666666667em")
+                .setHeight("17.523809523809526em")
+                .setSrc("{/}img/watershed-diagram2.jpg")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input62")
+                .setDirtyMark(false)
+                .setLeft("76.19047619047619em")
+                .setTop("2.2857142857142856em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setValue("    RSWMM-Cost")
             );
             
             return children;
