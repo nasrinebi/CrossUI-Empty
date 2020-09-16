@@ -1121,6 +1121,16 @@ xui.Class('App', 'xui.Module',{
                 .setType("file")
             );
             
+            append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button20")
+                .setDirtyMark(false)
+                .setLeft("51.80952380952381em")
+                .setTop("9.904761904761905em")
+                .setCaption("Status Button")
+                .setType("status")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
@@ -1129,7 +1139,8 @@ xui.Class('App', 'xui.Module',{
         customAppend : function(parent, subId, left, top){
             // "return false" will cause all the internal UI controls will be added to the parent panel
             return false;
-        }
+        },
+            functions:{ }
         /*,
         // To determine how properties affects this module
         propSetAction : function(prop){
