@@ -1176,10 +1176,10 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.UI.Image")
                 .setHost(host,"xui_ui_image4")
-                .setLeft("60.19047619047619em")
+                .setLeft("58.666666666666664em")
                 .setTop("2.2857142857142856em")
-                .setWidth("29.866666666666667em")
-                .setHeight("17.523809523809526em")
+                .setWidth("27.580952380952382em")
+                .setHeight("16.761904761904763em")
                 .setSrc("{/}img/watershed-diagram2.jpg")
             );
             
@@ -1187,11 +1187,11 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input62")
                 .setDirtyMark(false)
-                .setLeft("76.19047619047619em")
+                .setLeft("66.28571428571429em")
                 .setTop("2.2857142857142856em")
-                .setWidth("18em")
-                .setLabelSize("8em")
-                .setValue("    RSWMM-Cost")
+                .setWidth("22.552380952380954em")
+                .setLabelSize("10em")
+                .setValue("          RSWMM-Cost")
             );
             
             return children;
