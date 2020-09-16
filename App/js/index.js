@@ -1125,16 +1125,14 @@ xui.Class('App', 'xui.Module',{
                         "type":"other",
                         "target":"msg",
                         "args":[
-                            "",
-                            "Sucessful. "
+                            "Window will be closed once it is done.",
+                            "Running",
+                            400,
+                            10000
                         ],
-                        "method":"confirm",
+                        "method":"message",
                         "event":1,
-                        "timeout":10000,
-                        "resetid":"",
                         "return":false,
-                        "onOK":2,
-                        "onKO":3,
                         "okFlag":"_confirm_yes",
                         "koFlag":"_confirm_no"
                     }
