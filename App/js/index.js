@@ -1125,10 +1125,14 @@ xui.Class('App', 'xui.Module',{
                         "type":"other",
                         "target":"url",
                         "args":[
-                            "https://drive.google.com/drive/u/0/my-drive/WIN_20200127_19_29_58_Pro.jpg"
+                            "https://ibb.co/GxkGd65"
                         ],
                         "method":"open----_blank",
-                        "event":1
+                        "event":1,
+                        "okFlag":"_DI_succeed",
+                        "koFlag":"_DI_fail",
+                        "timeout":0,
+                        "resetid":""
                     }
                 ])
             );
