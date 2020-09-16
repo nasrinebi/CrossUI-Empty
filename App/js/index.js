@@ -21,54 +21,6 @@ xui.Class('App', 'xui.Module',{
             var host=this, children=[], append=function(child){children.push(child.get(0));};
             
             append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput29")
-                .setDirtyMark(false)
-                .setLeft("9.142857142857142em")
-                .setTop("3.8095238095238093em")
-                .setWidth("18em")
-                .setLabelSize("8em")
-                .setLabelCaption("DEM")
-                .setType("file")
-            );
-            
-            append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput30")
-                .setDirtyMark(false)
-                .setLeft("9.142857142857142em")
-                .setTop("6.095238095238095em")
-                .setWidth("18em")
-                .setLabelSize("8em")
-                .setLabelCaption("Land use")
-                .setType("file")
-            );
-            
-            append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput31")
-                .setDirtyMark(false)
-                .setLeft("9.142857142857142em")
-                .setTop("8.380952380952381em")
-                .setWidth("18em")
-                .setLabelSize("8em")
-                .setLabelCaption("Soil")
-                .setType("file")
-            );
-            
-            append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput32")
-                .setDirtyMark(false)
-                .setLeft("9.142857142857142em")
-                .setTop("10.666666666666666em")
-                .setWidth("18em")
-                .setLabelSize("8em")
-                .setLabelCaption("Imperviousness")
-                .setType("file")
-            );
-            
-            append(
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input7")
                 .setDirtyMark(false)
@@ -1118,6 +1070,54 @@ xui.Class('App', 'xui.Module',{
                 .setTop("6.857142857142857em")
                 .setCaption("           Run")
                 .setImageClass("xui-icon-xui")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput153")
+                .setDirtyMark(false)
+                .setLeft("9.142857142857142em")
+                .setTop("3.8095238095238093em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("DEM")
+                .setType("file")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput154")
+                .setDirtyMark(false)
+                .setLeft("9.142857142857142em")
+                .setTop("6.095238095238095em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("Land use")
+                .setType("file")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput155")
+                .setDirtyMark(false)
+                .setLeft("9.142857142857142em")
+                .setTop("8.380952380952381em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("Soil")
+                .setType("file")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput156")
+                .setDirtyMark(false)
+                .setLeft("9.142857142857142em")
+                .setTop("10.666666666666666em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("Imperviousness")
+                .setType("file")
             );
             
             return children;
