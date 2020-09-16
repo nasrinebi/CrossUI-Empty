@@ -1069,6 +1069,7 @@ xui.Class('App', 'xui.Module',{
                 .setLeft("53.333333333333336em")
                 .setTop("6.857142857142857em")
                 .setCaption("           Run")
+                .setImage("{/}img/WIN_20200127_19_29_58_Pro.jpg")
                 .setImageClass("xui-icon-xui")
             );
             
