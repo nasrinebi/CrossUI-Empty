@@ -1125,7 +1125,7 @@ xui.Class('App', 'xui.Module',{
                         "type":"other",
                         "target":"url",
                         "args":[
-                            "https://ibb.co/GxkGd65"
+                            "https://imagizer.imageshack.com/img923/3458/f1Rdv1.png"
                         ],
                         "method":"open----_self",
                         "event":1,
