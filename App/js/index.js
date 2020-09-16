@@ -417,7 +417,7 @@ xui.Class('App', 'xui.Module',{
                 .setLeft("19.80952380952381em")
                 .setTop("35.04761904761905em")
                 .setWidth("12em")
-                .setCaption("<2")
+                .setCaption(">25")
             );
             
             append(
@@ -427,17 +427,7 @@ xui.Class('App', 'xui.Module',{
                 .setLeft("19.80952380952381em")
                 .setTop("38.095238095238095em")
                 .setWidth("12em")
-                .setCaption("<2")
-            );
-            
-            append(
-                xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox10")
-                .setDirtyMark(false)
-                .setLeft("19.80952380952381em")
-                .setTop("41.142857142857146em")
-                .setWidth("12em")
-                .setCaption("<2")
+                .setCaption(">10")
             );
             
             append(
@@ -472,13 +462,652 @@ xui.Class('App', 'xui.Module',{
             
             append(
                 xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input42")
+                .setHost(host,"xui_ui_input129")
                 .setDirtyMark(false)
-                .setLeft("11.428571428571429em")
+                .setLeft("19.047619047619047em")
+                .setTop("41.142857142857146em")
+                .setWidth("4.647619047619048em")
+                .setValue("    NA")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input132")
+                .setDirtyMark(false)
+                .setLeft("19.047619047619047em")
                 .setTop("44.19047619047619em")
-                .setWidth("10.361904761904762em")
-                .setLabelSize("8em")
-                .setValue("       -")
+                .setWidth("4.647619047619048em")
+                .setValue("    NA")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox49")
+                .setDirtyMark(false)
+                .setLeft("29.714285714285715em")
+                .setTop("28.876190476190477em")
+                .setWidth("12em")
+                .setCaption("<5")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox50")
+                .setDirtyMark(false)
+                .setLeft("29.714285714285715em")
+                .setTop("32em")
+                .setWidth("12em")
+                .setCaption("<2")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox51")
+                .setDirtyMark(false)
+                .setLeft("29.714285714285715em")
+                .setTop("35.04761904761905em")
+                .setWidth("12em")
+                .setCaption("<2")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox52")
+                .setDirtyMark(false)
+                .setLeft("29.714285714285715em")
+                .setTop("38.095238095238095em")
+                .setWidth("12em")
+                .setCaption("<15")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox57")
+                .setDirtyMark(false)
+                .setLeft("29.714285714285715em")
+                .setTop("47.23809523809524em")
+                .setWidth("12em")
+                .setCaption("<15")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox58")
+                .setDirtyMark(false)
+                .setLeft("29.714285714285715em")
+                .setTop("50.285714285714285em")
+                .setWidth("12em")
+                .setCaption("<15")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox59")
+                .setDirtyMark(false)
+                .setLeft("29.714285714285715em")
+                .setTop("53.333333333333336em")
+                .setWidth("12em")
+                .setCaption("<4")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox92")
+                .setDirtyMark(false)
+                .setLeft("37.333333333333336em")
+                .setTop("29.02857142857143em")
+                .setWidth("12em")
+                .setCaption(">0")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox93")
+                .setDirtyMark(false)
+                .setLeft("37.333333333333336em")
+                .setTop("32.076190476190476em")
+                .setWidth("12em")
+                .setCaption(">0")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox94")
+                .setDirtyMark(false)
+                .setLeft("37.333333333333336em")
+                .setTop("35.12380952380953em")
+                .setWidth("12em")
+                .setCaption(">0")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox95")
+                .setDirtyMark(false)
+                .setLeft("37.333333333333336em")
+                .setTop("38.17142857142857em")
+                .setWidth("12em")
+                .setCaption(">0")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox96")
+                .setDirtyMark(false)
+                .setLeft("37.333333333333336em")
+                .setTop("47.31428571428572em")
+                .setWidth("12em")
+                .setCaption(">0")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox97")
+                .setDirtyMark(false)
+                .setLeft("37.333333333333336em")
+                .setTop("50.36190476190476em")
+                .setWidth("12em")
+                .setCaption(">0")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox98")
+                .setDirtyMark(false)
+                .setLeft("37.333333333333336em")
+                .setTop("53.40952380952381em")
+                .setWidth("12em")
+                .setCaption(">0")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox99")
+                .setDirtyMark(false)
+                .setLeft("45.714285714285715em")
+                .setTop("28.952380952380953em")
+                .setWidth("12em")
+                .setCaption("A-D")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox100")
+                .setDirtyMark(false)
+                .setLeft("45.714285714285715em")
+                .setTop("32.076190476190476em")
+                .setWidth("12em")
+                .setCaption("A-D")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox101")
+                .setDirtyMark(false)
+                .setLeft("45.714285714285715em")
+                .setTop("35.12380952380953em")
+                .setWidth("12em")
+                .setCaption("A-D")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox102")
+                .setDirtyMark(false)
+                .setLeft("45.714285714285715em")
+                .setTop("38.17142857142857em")
+                .setWidth("12em")
+                .setCaption("A-D")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox105")
+                .setDirtyMark(false)
+                .setLeft("45.714285714285715em")
+                .setTop("47.31428571428572em")
+                .setWidth("12em")
+                .setCaption("A-D")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox106")
+                .setDirtyMark(false)
+                .setLeft("45.714285714285715em")
+                .setTop("50.36190476190476em")
+                .setWidth("12em")
+                .setCaption("A-D")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox107")
+                .setDirtyMark(false)
+                .setLeft("45.714285714285715em")
+                .setTop("53.40952380952381em")
+                .setWidth("12em")
+                .setCaption("A-D")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input135")
+                .setDirtyMark(false)
+                .setLeft("28.19047619047619em")
+                .setTop("41.142857142857146em")
+                .setWidth("4.647619047619048em")
+                .setValue("    NA")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input136")
+                .setDirtyMark(false)
+                .setLeft("28.19047619047619em")
+                .setTop("44.19047619047619em")
+                .setWidth("4.647619047619048em")
+                .setValue("    NA")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input139")
+                .setDirtyMark(false)
+                .setLeft("36.57142857142857em")
+                .setTop("41.142857142857146em")
+                .setWidth("4.647619047619048em")
+                .setValue("    NA")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input140")
+                .setDirtyMark(false)
+                .setLeft("36.57142857142857em")
+                .setTop("44.19047619047619em")
+                .setWidth("4.647619047619048em")
+                .setValue("    NA")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input143")
+                .setDirtyMark(false)
+                .setLeft("44.95238095238095em")
+                .setTop("41.142857142857146em")
+                .setWidth("4.647619047619048em")
+                .setValue("    NA")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input144")
+                .setDirtyMark(false)
+                .setLeft("44.95238095238095em")
+                .setTop("44.19047619047619em")
+                .setWidth("4.647619047619048em")
+                .setValue("    NA")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox210")
+                .setDirtyMark(false)
+                .setLeft("52.57142857142857em")
+                .setTop("28.952380952380953em")
+                .setWidth("12em")
+                .setCaption(">2")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox211")
+                .setDirtyMark(false)
+                .setLeft("52.57142857142857em")
+                .setTop("32em")
+                .setWidth("12em")
+                .setCaption(">2")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox212")
+                .setDirtyMark(false)
+                .setLeft("52.57142857142857em")
+                .setTop("35.04761904761905em")
+                .setWidth("12em")
+                .setCaption(">25")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox213")
+                .setDirtyMark(false)
+                .setLeft("52.57142857142857em")
+                .setTop("38.095238095238095em")
+                .setWidth("12em")
+                .setCaption(">10")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox214")
+                .setDirtyMark(false)
+                .setLeft("52.57142857142857em")
+                .setTop("47.23809523809524em")
+                .setWidth("12em")
+                .setCaption("<5")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox215")
+                .setDirtyMark(false)
+                .setLeft("52.57142857142857em")
+                .setTop("50.285714285714285em")
+                .setWidth("12em")
+                .setCaption("<10")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox216")
+                .setDirtyMark(false)
+                .setLeft("52.57142857142857em")
+                .setTop("53.333333333333336em")
+                .setWidth("12em")
+                .setCaption("<5")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input169")
+                .setDirtyMark(false)
+                .setLeft("51.80952380952381em")
+                .setTop("41.142857142857146em")
+                .setWidth("4.647619047619048em")
+                .setValue("    NA")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input170")
+                .setDirtyMark(false)
+                .setLeft("51.80952380952381em")
+                .setTop("44.19047619047619em")
+                .setWidth("4.647619047619048em")
+                .setValue("    NA")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox217")
+                .setDirtyMark(false)
+                .setLeft("62.476190476190474em")
+                .setTop("28.19047619047619em")
+                .setWidth("12em")
+                .setCaption("<5")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox218")
+                .setDirtyMark(false)
+                .setLeft("62.476190476190474em")
+                .setTop("31.314285714285713em")
+                .setWidth("12em")
+                .setCaption("<2")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox219")
+                .setDirtyMark(false)
+                .setLeft("62.476190476190474em")
+                .setTop("34.36190476190476em")
+                .setWidth("12em")
+                .setCaption("<2")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox220")
+                .setDirtyMark(false)
+                .setLeft("62.476190476190474em")
+                .setTop("37.40952380952381em")
+                .setWidth("12em")
+                .setCaption("<15")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox221")
+                .setDirtyMark(false)
+                .setLeft("62.476190476190474em")
+                .setTop("46.55238095238095em")
+                .setWidth("12em")
+                .setCaption("<15")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox222")
+                .setDirtyMark(false)
+                .setLeft("62.476190476190474em")
+                .setTop("49.6em")
+                .setWidth("12em")
+                .setCaption("<15")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox223")
+                .setDirtyMark(false)
+                .setLeft("62.476190476190474em")
+                .setTop("52.647619047619045em")
+                .setWidth("12em")
+                .setCaption("<4")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox224")
+                .setDirtyMark(false)
+                .setLeft("70.0952380952381em")
+                .setTop("28.34285714285714em")
+                .setWidth("12em")
+                .setCaption(">0")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox225")
+                .setDirtyMark(false)
+                .setLeft("70.0952380952381em")
+                .setTop("31.39047619047619em")
+                .setWidth("12em")
+                .setCaption(">0")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox226")
+                .setDirtyMark(false)
+                .setLeft("70.0952380952381em")
+                .setTop("34.43809523809524em")
+                .setWidth("12em")
+                .setCaption(">0")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox227")
+                .setDirtyMark(false)
+                .setLeft("70.0952380952381em")
+                .setTop("37.48571428571429em")
+                .setWidth("12em")
+                .setCaption(">0")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox228")
+                .setDirtyMark(false)
+                .setLeft("70.0952380952381em")
+                .setTop("46.628571428571426em")
+                .setWidth("12em")
+                .setCaption(">0")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox229")
+                .setDirtyMark(false)
+                .setLeft("70.0952380952381em")
+                .setTop("49.67619047619048em")
+                .setWidth("12em")
+                .setCaption(">0")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox230")
+                .setDirtyMark(false)
+                .setLeft("70.0952380952381em")
+                .setTop("52.72380952380952em")
+                .setWidth("12em")
+                .setCaption(">0")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox231")
+                .setDirtyMark(false)
+                .setLeft("78.47619047619048em")
+                .setTop("28.266666666666666em")
+                .setWidth("12em")
+                .setCaption("A-D")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox232")
+                .setDirtyMark(false)
+                .setLeft("78.47619047619048em")
+                .setTop("31.39047619047619em")
+                .setWidth("12em")
+                .setCaption("A-D")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox233")
+                .setDirtyMark(false)
+                .setLeft("78.47619047619048em")
+                .setTop("34.43809523809524em")
+                .setWidth("12em")
+                .setCaption("A-D")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox234")
+                .setDirtyMark(false)
+                .setLeft("78.47619047619048em")
+                .setTop("37.48571428571429em")
+                .setWidth("12em")
+                .setCaption("A-D")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox235")
+                .setDirtyMark(false)
+                .setLeft("78.47619047619048em")
+                .setTop("46.628571428571426em")
+                .setWidth("12em")
+                .setCaption("A-D")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox236")
+                .setDirtyMark(false)
+                .setLeft("78.47619047619048em")
+                .setTop("49.67619047619048em")
+                .setWidth("12em")
+                .setCaption("A-D")
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox237")
+                .setDirtyMark(false)
+                .setLeft("78.47619047619048em")
+                .setTop("52.72380952380952em")
+                .setWidth("12em")
+                .setCaption("A-D")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input171")
+                .setDirtyMark(false)
+                .setLeft("60.95238095238095em")
+                .setTop("40.457142857142856em")
+                .setWidth("4.647619047619048em")
+                .setValue("    NA")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input172")
+                .setDirtyMark(false)
+                .setLeft("60.95238095238095em")
+                .setTop("43.50476190476191em")
+                .setWidth("4.647619047619048em")
+                .setValue("    NA")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input173")
+                .setDirtyMark(false)
+                .setLeft("69.33333333333333em")
+                .setTop("40.457142857142856em")
+                .setWidth("4.647619047619048em")
+                .setValue("    NA")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input174")
+                .setDirtyMark(false)
+                .setLeft("69.33333333333333em")
+                .setTop("43.50476190476191em")
+                .setWidth("4.647619047619048em")
+                .setValue("    NA")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input175")
+                .setDirtyMark(false)
+                .setLeft("77.71428571428571em")
+                .setTop("40.457142857142856em")
+                .setWidth("4.647619047619048em")
+                .setValue("    NA")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input176")
+                .setDirtyMark(false)
+                .setLeft("77.71428571428571em")
+                .setTop("43.50476190476191em")
+                .setWidth("4.647619047619048em")
+                .setValue("    NA")
             );
             
             return children;
