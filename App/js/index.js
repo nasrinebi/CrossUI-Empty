@@ -24,8 +24,8 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput29")
                 .setDirtyMark(false)
-                .setLeft("0.7619047619047619em")
-                .setTop("6.095238095238095em")
+                .setLeft("9.142857142857142em")
+                .setTop("3.8095238095238093em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setLabelCaption("DEM")
@@ -36,8 +36,8 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput30")
                 .setDirtyMark(false)
-                .setLeft("0.7619047619047619em")
-                .setTop("8.380952380952381em")
+                .setLeft("9.142857142857142em")
+                .setTop("6.095238095238095em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setLabelCaption("Land use")
@@ -48,8 +48,8 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput31")
                 .setDirtyMark(false)
-                .setLeft("0.7619047619047619em")
-                .setTop("10.666666666666666em")
+                .setLeft("9.142857142857142em")
+                .setTop("8.380952380952381em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setLabelCaption("Soil")
@@ -60,8 +60,8 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput32")
                 .setDirtyMark(false)
-                .setLeft("0.7619047619047619em")
-                .setTop("12.952380952380953em")
+                .setLeft("9.142857142857142em")
+                .setTop("10.666666666666666em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setLabelCaption("Imperviousness")
@@ -72,8 +72,8 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input7")
                 .setDirtyMark(false)
-                .setLeft("-3.8095238095238093em")
-                .setTop("1.5238095238095237em")
+                .setLeft("4.571428571428571em")
+                .setTop("0.7619047619047619em")
                 .setWidth("24.076190476190476em")
                 .setHeight("2.361904761904762em")
                 .setLabelSize("8em")
@@ -132,8 +132,8 @@ xui.Class('App', 'xui.Module',{
                         "imageClass":"xui-icon-number9"
                     }
                 ])
-                .setLeft("12.952380952380953em")
-                .setTop("6.095238095238095em")
+                .setLeft("26.666666666666668em")
+                .setTop("3.8095238095238093em")
                 .setWidth("26em")
                 .setHeight("15.00952380952381em")
                 .setSelMode("multibycheckbox")
@@ -145,8 +145,8 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input15")
                 .setDirtyMark(false)
-                .setLeft("14.476190476190476em")
-                .setTop("1.5238095238095237em")
+                .setLeft("28.952380952380953em")
+                .setTop("0.7619047619047619em")
                 .setWidth("23.314285714285713em")
                 .setHeight("2.361904761904762em")
                 .setLabelSize("8em")
@@ -158,8 +158,8 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput8")
                 .setDirtyMark(false)
-                .setLeft("0.7619047619047619em")
-                .setTop("15.238095238095237em")
+                .setLeft("9.142857142857142em")
+                .setTop("12.952380952380953em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setLabelCaption("Stream")
@@ -170,8 +170,8 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput9")
                 .setDirtyMark(false)
-                .setLeft("0.7619047619047619em")
-                .setTop("17.523809523809526em")
+                .setLeft("9.142857142857142em")
+                .setTop("15.238095238095237em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setLabelCaption("Road")
@@ -182,8 +182,8 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput27")
                 .setDirtyMark(false)
-                .setLeft("0.7619047619047619em")
-                .setTop("19.80952380952381em")
+                .setLeft("9.142857142857142em")
+                .setTop("17.523809523809526em")
                 .setWidth("18em")
                 .setLabelSize("8em")
                 .setLabelCaption("Land Ownership")
@@ -192,78 +192,179 @@ xui.Class('App', 'xui.Module',{
             
             append(
                 xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input10")
+                .setHost(host,"xui_ui_input37")
                 .setDirtyMark(false)
-                .setLeft("38.857142857142854em")
-                .setTop("1.5238095238095237em")
-                .setWidth("21.02857142857143em")
-                .setHeight("2.361904761904762em")
+                .setLeft("-7.619047619047619em")
+                .setTop("24.38095238095238em")
+                .setWidth("18em")
                 .setLabelSize("8em")
-                .setMultiLines(true)
-                .setValue("            BMP Criteria")
+                .setValue("       Bioretention")
             );
             
             append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput43")
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input40")
                 .setDirtyMark(false)
-                .setLeft("40.38095238095238em")
-                .setTop("5.333333333333333em")
+                .setLeft("-7.619047619047619em")
+                .setTop("26.666666666666668em")
                 .setWidth("18em")
                 .setLabelSize("8em")
-                .setLabelCaption("Select BMP Type")
-                .setType("listbox")
-                .setItems([
-                    {
-                        "id":"a",
-                        "caption":"Bioretention",
-                        "imageClass":"xui-icon-number1"
-                    },
-                    {
-                        "id":"b",
-                        "caption":"Porous Pavement",
-                        "imageClass":"xui-icon-number2"
-                    },
-                    {
-                        "id":"c",
-                        "caption":"Wet Pond",
-                        "imageClass":"xui-icon-number3"
-                    },
-                    {
-                        "id":"d",
-                        "caption":"Dry Pond",
-                        "imageClass":"xui-icon-number4"   
-                    },
-                    {
-                        "id":"d",
-                        "caption":"Green Roof",
-                        "imageClass":"xui-icon-number5"
-                    },
-                    {
-                        "id":"d",
-                        "caption":"Rain Barrel",
-                        "imageClass":"xui-icon-number6"
-                        
-                    },
-                    {
-                        "id":"d",
-                        "caption":"Infiltration Trench",
-                        "imageClass":"xui-icon-number7"
-                      
-                    },
-                    {
-                        "id":"d",
-                        "caption":"Infiltration Basin",
-                        "imageClass":"xui-icon-number8"
-                
-                    },
-                    {
-                        "id":"d",
-                        "caption":"Vegetated Swale",
-                        "imageClass":"xui-icon-number9"
-                 
-                    }
-                ])
+                .setValue("Porous Pavement")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input43")
+                .setDirtyMark(false)
+                .setLeft("-7.619047619047619em")
+                .setTop("28.952380952380953em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setValue("        Wet Pond")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input46")
+                .setDirtyMark(false)
+                .setLeft("-7.619047619047619em")
+                .setTop("31.238095238095237em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setValue("        Dry Pond")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input49")
+                .setDirtyMark(false)
+                .setLeft("-7.619047619047619em")
+                .setTop("33.523809523809526em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setValue("      Green Roof")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input52")
+                .setDirtyMark(false)
+                .setLeft("-7.619047619047619em")
+                .setTop("35.80952380952381em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setValue("      Rain Barrel")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input55")
+                .setDirtyMark(false)
+                .setLeft("-7.619047619047619em")
+                .setTop("38.095238095238095em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setValue("   Infiltration Trench")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input58")
+                .setDirtyMark(false)
+                .setLeft("-7.619047619047619em")
+                .setTop("40.38095238095238em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setValue("   Infiltration Basin")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input61")
+                .setDirtyMark(false)
+                .setLeft("-7.619047619047619em")
+                .setTop("42.666666666666664em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setValue("  Vegetated Swale")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input64")
+                .setDirtyMark(false)
+                .setLeft("1.5238095238095237em")
+                .setTop("21.333333333333332em")
+                .setWidth("17.21904761904762em")
+                .setLabelSize("8em")
+                .setHeight("1.7523809523809524em")
+                .setValue("    Drainage Area")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input69")
+                .setDirtyMark(false)
+                .setLeft("11.428571428571429em")
+                .setTop("21.333333333333332em")
+                .setWidth("12.647619047619047em")
+                .setLabelSize("8em")
+                .setValue("  Slope")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input72")
+                .setDirtyMark(false)
+                .setLeft("16.761904761904763em")
+                .setTop("21.333333333333332em")
+                .setWidth("14.17142857142857em")
+                .setLabelSize("8em")
+                .setValue("Impervious")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input75")
+                .setDirtyMark(false)
+                .setLeft("23.61904761904762em")
+                .setTop("21.333333333333332em")
+                .setWidth("14.17142857142857em")
+                .setLabelSize("8em")
+                .setValue(" Soil Group")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input78")
+                .setDirtyMark(false)
+                .setLeft("30.476190476190474em")
+                .setTop("21.333333333333332em")
+                .setWidth("14.17142857142857em")
+                .setLabelSize("8em")
+                .setValue("GW Table")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input81")
+                .setDirtyMark(false)
+                .setLeft("37.333333333333336em")
+                .setTop("21.333333333333332em")
+                .setWidth("14.17142857142857em")
+                .setLabelSize("8em")
+                .setValue("Road Buffer")
+            );
+            
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input84")
+                .setDirtyMark(false)
+                .setLeft("44.19047619047619em")
+                .setTop("21.333333333333332em")
+                .setWidth("15.695238095238095em")
+                .setLabelSize("8em")
+                .setValue("Building Buffer")
             );
             
             return children;
