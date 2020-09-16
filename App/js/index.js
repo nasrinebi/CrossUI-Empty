@@ -1174,20 +1174,10 @@ xui.Class('App', 'xui.Module',{
             );
             
             append(
-                xui.create("xui.UI.Image")
-                .setHost(host,"xui_ui_image4")
-                .setLeft("58.666666666666664em")
-                .setTop("2.2857142857142856em")
-                .setWidth("27.580952380952382em")
-                .setHeight("16.761904761904763em")
-                .setSrc("{/}img/watershed-diagram2.jpg")
-            );
-            
-            append(
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input62")
                 .setDirtyMark(false)
-                .setLeft("66.28571428571429em")
+                .setLeft("53.25714285714286em")
                 .setTop("2.2857142857142856em")
                 .setWidth("22.552380952380954em")
                 .setLabelSize("10em")
