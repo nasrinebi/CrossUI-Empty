@@ -1179,7 +1179,7 @@ xui.Class('App', 'xui.Module',{
                 .setDirtyMark(false)
                 .setLeft("53.25714285714286em")
                 .setTop("2.2857142857142856em")
-                .setWidth("22.552380952380954em")
+                .setWidth("22.62857142857143em")
                 .setLabelSize("10em")
                 .setValue("          RSWMM-Cost")
             );
@@ -1187,10 +1187,10 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.UI.Image")
                 .setHost(host,"xui_ui_image5")
-                .setLeft("60.95238095238095em")
-                .setTop("6.095238095238095em")
-                .setWidth("17.066666666666666em")
-                .setHeight("12.495238095238095em")
+                .setLeft("59.42857142857143em")
+                .setTop("4.571428571428571em")
+                .setWidth("19.35238095238095em")
+                .setHeight("15.542857142857143em")
                 .setSrc("{/}img/earth111mod3fafig3.png.png")
             );
             
