@@ -1154,8 +1154,8 @@ xui.Class('App', 'xui.Module',{
                         "type":"other",
                         "target":"msg",
                         "args":[
-                            "Saved",
-                            "",
+                            "Windows will be closed once it is done. ",
+                            "Saving",
                             400,
                             3000
                         ],
