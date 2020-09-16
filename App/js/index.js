@@ -1112,10 +1112,10 @@ xui.Class('App', 'xui.Module',{
             
             append(
                 xui.create("xui.UI.Button")
-                .setHost(host,"xui_ui_button33")
+                .setHost(host,"xui_ui_button38")
                 .setDirtyMark(false)
-                .setLeft("51.80952380952381em")
-                .setTop("7.619047619047619em")
+                .setLeft("52.57142857142857em")
+                .setTop("8.380952380952381em")
                 .setCaption("           Run")
                 .setImage("{/}img/WIN_20200127_19_29_58_Pro.jpg")
                 .setImageClass("xui-icon-xui")
@@ -1124,10 +1124,8 @@ xui.Class('App', 'xui.Module',{
                         "desc":"Action 1",
                         "type":"page",
                         "target":"App",
-                        "args":[
-                            { }
-                        ],
-                        "method":"open",
+                        "args":[true],
+                        "method":"switch",
                         "event":1
                     }
                 ])
