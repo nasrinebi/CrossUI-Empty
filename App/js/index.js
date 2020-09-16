@@ -1063,17 +1063,6 @@ xui.Class('App', 'xui.Module',{
             );
             
             append(
-                xui.create("xui.UI.Button")
-                .setHost(host,"xui_ui_button8")
-                .setDirtyMark(false)
-                .setLeft("53.333333333333336em")
-                .setTop("6.857142857142857em")
-                .setCaption("           Run")
-                .setImage("{/}img/WIN_20200127_19_29_58_Pro.jpg")
-                .setImageClass("xui-icon-xui")
-            );
-            
-            append(
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput153")
                 .setDirtyMark(false)
@@ -1121,6 +1110,29 @@ xui.Class('App', 'xui.Module',{
                 .setType("file")
             );
             
+            append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button33")
+                .setDirtyMark(false)
+                .setLeft("51.80952380952381em")
+                .setTop("7.619047619047619em")
+                .setCaption("           Run")
+                .setImage("{/}img/WIN_20200127_19_29_58_Pro.jpg")
+                .setImageClass("xui-icon-xui")
+                .onClick([
+                    {
+                        "desc":"Action 1",
+                        "type":"page",
+                        "target":"App",
+                        "args":[
+                            { }
+                        ],
+                        "method":"open",
+                        "event":1
+                    }
+                ])
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
@@ -1130,7 +1142,18 @@ xui.Class('App', 'xui.Module',{
             // "return false" will cause all the internal UI controls will be added to the parent panel
             return false;
         },
-            functions:{ }
+        functions:{ },
+        /**
+         * Fired when user click it
+         * @method onClick [xui.UI.Button event]
+         * @param {xui.UIProfile.} profile  The current control's profile object
+         * @param {Event} e , Dom event object
+         * @param {Element.xui} src  id or Dom Element
+         * @param {} value  Object
+        */
+        _xui_ui_button34_onclick:function(profile, e, src, value){
+            var ns = this, uictrl = profile.boxing();
+        }
         /*,
         // To determine how properties affects this module
         propSetAction : function(prop){
