@@ -1131,7 +1131,7 @@ xui.Class('App', 'xui.Module',{
                         "event":1,
                         "okFlag":"_DI_succeed",
                         "koFlag":"_DI_fail",
-                        "timeout":0,
+                        "timeout":320,
                         "resetid":""
                     }
                 ])
