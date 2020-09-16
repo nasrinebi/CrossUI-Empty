@@ -1125,10 +1125,10 @@ xui.Class('App', 'xui.Module',{
                         "type":"other",
                         "target":"msg",
                         "args":[
+                            "The window will be closed once it is done. ",
                             "Running",
-                            undefined,
-                            200,
-                            5000
+                            400,
+                            10000
                         ],
                         "method":"message",
                         "event":1
@@ -1151,10 +1151,12 @@ xui.Class('App', 'xui.Module',{
                         "type":"other",
                         "target":"msg",
                         "args":[
+                            "Saved",
                             "",
-                            "Saving"
+                            400,
+                            3000
                         ],
-                        "method":"pop",
+                        "method":"message",
                         "timeout":200,
                         "resetid":"",
                         "event":1
