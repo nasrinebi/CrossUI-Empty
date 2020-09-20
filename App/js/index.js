@@ -1231,7 +1231,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input71")
                 .setDirtyMark(false)
-                .setLeft("10.666666666666666em")
+                .setLeft("15.238095238095237em")
                 .setTop("31.923809523809524em")
                 .setWidth("9.6em")
                 .setHeight("1.7523809523809524em")
