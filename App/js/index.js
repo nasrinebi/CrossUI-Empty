@@ -1231,7 +1231,7 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input71")
                 .setDirtyMark(false)
-                .setLeft("15.238095238095237em")
+                .setLeft("20.571428571428573em")
                 .setTop("31.923809523809524em")
                 .setWidth("9.6em")
                 .setHeight("1.7523809523809524em")
@@ -1879,108 +1879,9 @@ xui.Class('App', 'xui.Module',{
             
             append(
                 xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input186")
-                .setDirtyMark(false)
-                .setLeft("70.78095238095239em")
-                .setTop("25.142857142857142em")
-                .setWidth("9.6em")
-                .setHeight("1.7523809523809524em")
-                .setLabelSize("8em")
-            );
-            
-            append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input187")
-                .setDirtyMark(false)
-                .setLeft("70.78095238095239em")
-                .setTop("27.428571428571427em")
-                .setWidth("9.6em")
-                .setHeight("1.7523809523809524em")
-                .setLabelSize("8em")
-            );
-            
-            append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input188")
-                .setDirtyMark(false)
-                .setLeft("70.78095238095239em")
-                .setTop("29.714285714285715em")
-                .setWidth("9.6em")
-                .setHeight("1.7523809523809524em")
-                .setLabelSize("8em")
-            );
-            
-            append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input189")
-                .setDirtyMark(false)
-                .setLeft("70.78095238095239em")
-                .setTop("32em")
-                .setWidth("9.6em")
-                .setHeight("1.7523809523809524em")
-                .setLabelSize("8em")
-            );
-            
-            append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input190")
-                .setDirtyMark(false)
-                .setLeft("70.78095238095239em")
-                .setTop("34.285714285714285em")
-                .setWidth("9.6em")
-                .setHeight("1.7523809523809524em")
-                .setLabelSize("8em")
-            );
-            
-            append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input191")
-                .setDirtyMark(false)
-                .setLeft("70.78095238095239em")
-                .setTop("36.57142857142857em")
-                .setWidth("9.6em")
-                .setHeight("1.7523809523809524em")
-                .setLabelSize("8em")
-            );
-            
-            append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input192")
-                .setDirtyMark(false)
-                .setLeft("70.78095238095239em")
-                .setTop("38.857142857142854em")
-                .setWidth("9.6em")
-                .setHeight("1.7523809523809524em")
-                .setLabelSize("8em")
-            );
-            
-            append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input193")
-                .setDirtyMark(false)
-                .setLeft("70.78095238095239em")
-                .setTop("41.142857142857146em")
-                .setWidth("9.6em")
-                .setHeight("1.7523809523809524em")
-                .setLabelSize("8em")
-            );
-            
-            append(
-                xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input194")
-                .setDirtyMark(false)
-                .setLeft("70.78095238095239em")
-                .setTop("43.42857142857143em")
-                .setWidth("9.6em")
-                .setHeight("1.7523809523809524em")
-                .setLabelSize("8em")
-            );
-            
-            append(
-                xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input123")
                 .setDirtyMark(false)
-                .setLeft("20.571428571428573em")
+                .setLeft("10.666666666666666em")
                 .setTop("31.923809523809524em")
                 .setWidth("9.6em")
                 .setHeight("1.7523809523809524em")
