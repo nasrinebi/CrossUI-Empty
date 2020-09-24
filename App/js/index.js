@@ -502,9 +502,9 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input135")
                 .setDirtyMark(false)
-                .setLeft("22.857142857142858em")
+                .setLeft("23.61904761904762em")
                 .setTop("34.285714285714285em")
-                .setWidth("4.647619047619048em")
+                .setWidth("3.8857142857142857em")
                 .setValue("    NA")
             );
             
@@ -512,9 +512,9 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input136")
                 .setDirtyMark(false)
-                .setLeft("22.857142857142858em")
+                .setLeft("23.61904761904762em")
                 .setTop("36.49523809523809em")
-                .setWidth("4.647619047619048em")
+                .setWidth("3.8857142857142857em")
                 .setValue("    NA")
             );
             
@@ -646,16 +646,6 @@ xui.Class('App', 'xui.Module',{
                 .setTop("36.49523809523809em")
                 .setWidth("3.8857142857142857em")
                 .setValue("    NA")
-            );
-            
-            append(
-                xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox217")
-                .setDirtyMark(false)
-                .setLeft("55.542857142857144em")
-                .setTop("25.066666666666666em")
-                .setWidth("12.114285714285714em")
-                .setCaption("<100")
             );
             
             append(
@@ -1423,35 +1413,38 @@ xui.Class('App', 'xui.Module',{
             );
             
             append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput273")
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox730")
                 .setDirtyMark(false)
-                .setLeft("32em")
+                .setLeft("40.38095238095238em")
+                .setTop("25.142857142857142em")
+                .setWidth("12em")
+                .setCaption("A-D")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput324")
+                .setDirtyMark(false)
+                .setLeft("47.23809523809524em")
                 .setTop("25.142857142857142em")
                 .setWidth("11.885714285714286em")
-                .setLabelSize("8em")
-                .setType("listbox")
+                .setLabelSize("7em")
                 .setItems([
                     {
                         "id":"a",
-                        "caption":"item 1",
+                        "caption":"<100",
                         "imageClass":"xui-icon-number1"
                     },
                     {
                         "id":"b",
-                        "caption":"item 2",
+                        "caption":"<150",
                         "imageClass":"xui-icon-number2"
                     },
                     {
                         "id":"c",
-                        "caption":"item 3",
+                        "caption":"<200",
                         "imageClass":"xui-icon-number3"
-                    },
-                    {
-                        "id":"d",
-                        "caption":"item 4",
-                        "imageClass":"xui-icon-number4",
-                        "disabled":true
                     }
                 ])
             );
