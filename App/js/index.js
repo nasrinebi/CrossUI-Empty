@@ -350,16 +350,6 @@ xui.Class('App', 'xui.Module',{
             
             append(
                 xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox4")
-                .setDirtyMark(false)
-                .setLeft("14.476190476190476em")
-                .setTop("25.066666666666666em")
-                .setWidth("12em")
-                .setCaption("<2")
-            );
-            
-            append(
-                xui.create("xui.UI.CheckBox")
                 .setHost(host,"xui_ui_checkbox7")
                 .setDirtyMark(false)
                 .setLeft("14.476190476190476em")
@@ -1192,6 +1182,39 @@ xui.Class('App', 'xui.Module',{
                 .setWidth("19.35238095238095em")
                 .setHeight("15.542857142857143em")
                 .setSrc("{/}img/earth111mod3fafig3.png.png")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput21")
+                .setDirtyMark(false)
+                .setLeft("6.095238095238095em")
+                .setTop("25.142857142857142em")
+                .setWidth("12.647619047619047em")
+                .setLabelSize("8em")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":"<2",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":"<3",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":"<4",
+                        "imageClass":"xui-icon-number3"
+                    },
+                    {
+                        "id":"d",
+                        "caption":"<5",
+                        "imageClass":"xui-icon-number4"
+
+                    }
+                ])
             );
             
             return children;
