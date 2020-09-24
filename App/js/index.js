@@ -559,76 +559,6 @@ xui.Class('App', 'xui.Module',{
             );
             
             append(
-                xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox210")
-                .setDirtyMark(false)
-                .setLeft("47.23809523809524em")
-                .setTop("25.066666666666666em")
-                .setWidth("12em")
-                .setCaption(">2")
-            );
-            
-            append(
-                xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox211")
-                .setDirtyMark(false)
-                .setLeft("47.23809523809524em")
-                .setTop("27.35238095238095em")
-                .setWidth("12em")
-                .setCaption(">2")
-            );
-            
-            append(
-                xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox212")
-                .setDirtyMark(false)
-                .setLeft("47.23809523809524em")
-                .setTop("29.63809523809524em")
-                .setWidth("12em")
-                .setCaption(">4")
-            );
-            
-            append(
-                xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox213")
-                .setDirtyMark(false)
-                .setLeft("47.23809523809524em")
-                .setTop("31.923809523809524em")
-                .setWidth("12em")
-                .setCaption(">4")
-            );
-            
-            append(
-                xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox214")
-                .setDirtyMark(false)
-                .setLeft("47.23809523809524em")
-                .setTop("38.78095238095238em")
-                .setWidth("12em")
-                .setCaption(">4")
-            );
-            
-            append(
-                xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox215")
-                .setDirtyMark(false)
-                .setLeft("47.23809523809524em")
-                .setTop("41.06666666666667em")
-                .setWidth("12em")
-                .setCaption(">4")
-            );
-            
-            append(
-                xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox216")
-                .setDirtyMark(false)
-                .setLeft("47.23809523809524em")
-                .setTop("43.42857142857143em")
-                .setWidth("12em")
-                .setCaption(">2")
-            );
-            
-            append(
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input169")
                 .setDirtyMark(false)
@@ -1343,70 +1273,6 @@ xui.Class('App', 'xui.Module',{
             );
             
             append(
-                xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox730")
-                .setDirtyMark(false)
-                .setLeft("40.38095238095238em")
-                .setTop("25.142857142857142em")
-                .setWidth("12em")
-                .setCaption("A-D")
-            );
-            
-            append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput324")
-                .setDirtyMark(false)
-                .setLeft("47.23809523809524em")
-                .setTop("25.142857142857142em")
-                .setWidth("12.647619047619047em")
-                .setLabelSize("7em")
-                .setItems([
-                    {
-                        "id":"a",
-                        "caption":"<100",
-                        "imageClass":"xui-icon-number1"
-                    },
-                    {
-                        "id":"b",
-                        "caption":"<150",
-                        "imageClass":"xui-icon-number2"
-                    },
-                    {
-                        "id":"c",
-                        "caption":"<200",
-                        "imageClass":"xui-icon-number3"
-                    }
-                ])
-            );
-            
-            append(
-                xui.create("xui.UI.ComboInput")
-                .setHost(host,"xui_ui_comboinput361")
-                .setDirtyMark(false)
-                .setLeft("47.23809523809524em")
-                .setTop("43.42857142857143em")
-                .setWidth("12.647619047619047em")
-                .setLabelSize("7em")
-                .setItems([
-                    {
-                        "id":"a",
-                        "caption":"<30",
-                        "imageClass":"xui-icon-number1"
-                    },
-                    {
-                        "id":"b",
-                        "caption":"<40",
-                        "imageClass":"xui-icon-number2"
-                    },
-                    {
-                        "id":"c",
-                        "caption":"<50",
-                        "imageClass":"xui-icon-number3"
-                    }
-                ])
-            );
-            
-            append(
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput362")
                 .setDirtyMark(false)
@@ -1563,6 +1429,259 @@ xui.Class('App', 'xui.Module',{
                     {
                         "id":"c",
                         "caption":">200",
+                        "imageClass":"xui-icon-number3"
+                    }
+                ])
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput571")
+                .setDirtyMark(false)
+                .setLeft("39.61904761904762em")
+                .setTop("25.142857142857142em")
+                .setWidth("11.885714285714286em")
+                .setLabelSize("7em")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":">2",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":">3",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":">4",
+                        "imageClass":"xui-icon-number3"
+                    }
+                ])
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput605")
+                .setDirtyMark(false)
+                .setLeft("39.61904761904762em")
+                .setTop("29.714285714285715em")
+                .setWidth("11.885714285714286em")
+                .setLabelSize("7em")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":">3",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":">4",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":">5",
+                        "imageClass":"xui-icon-number3"
+                    }
+                ])
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput640")
+                .setDirtyMark(false)
+                .setLeft("39.61904761904762em")
+                .setTop("32em")
+                .setWidth("11.885714285714286em")
+                .setLabelSize("7em")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":">3",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":">4",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":">5",
+                        "imageClass":"xui-icon-number3"
+                    }
+                ])
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput641")
+                .setDirtyMark(false)
+                .setLeft("39.61904761904762em")
+                .setTop("38.857142857142854em")
+                .setWidth("11.885714285714286em")
+                .setLabelSize("7em")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":">3",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":">4",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":">5",
+                        "imageClass":"xui-icon-number3"
+                    }
+                ])
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput642")
+                .setDirtyMark(false)
+                .setLeft("39.61904761904762em")
+                .setTop("41.142857142857146em")
+                .setWidth("11.885714285714286em")
+                .setLabelSize("7em")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":">3",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":">4",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":">5",
+                        "imageClass":"xui-icon-number3"
+                    }
+                ])
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput645")
+                .setDirtyMark(false)
+                .setLeft("39.61904761904762em")
+                .setTop("43.42857142857143em")
+                .setWidth("11.885714285714286em")
+                .setLabelSize("7em")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":">2",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":">3",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":">4",
+                        "imageClass":"xui-icon-number3"
+                    }
+                ])
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput647")
+                .setDirtyMark(false)
+                .setLeft("47.23809523809524em")
+                .setTop("25.142857142857142em")
+                .setWidth("11.885714285714286em")
+                .setLabelSize("7em")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":"<100",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":"<150",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":"<200",
+                        "imageClass":"xui-icon-number3"
+                    }
+                ])
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput689")
+                .setDirtyMark(false)
+                .setLeft("47.23809523809524em")
+                .setTop("43.42857142857143em")
+                .setWidth("11.885714285714286em")
+                .setLabelSize("7em")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":"<100",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":"<150",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":"<200",
+                        "imageClass":"xui-icon-number3"
+                    }
+                ])
+            );
+            
+            append(
+                xui.create("xui.UI.CheckBox")
+                .setHost(host,"xui_ui_checkbox948")
+                .setDirtyMark(false)
+                .setLeft("40.38095238095238em")
+                .setTop("25.142857142857142em")
+                .setWidth("4.419047619047619em")
+                .setCaption("A-D")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput700")
+                .setDirtyMark(false)
+                .setLeft("39.61904761904762em")
+                .setTop("27.428571428571427em")
+                .setWidth("11.885714285714286em")
+                .setLabelSize("7em")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":">2",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":">3",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":">4",
                         "imageClass":"xui-icon-number3"
                     }
                 ])
