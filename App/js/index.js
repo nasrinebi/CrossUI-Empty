@@ -1358,7 +1358,7 @@ xui.Class('App', 'xui.Module',{
                 .setDirtyMark(false)
                 .setLeft("47.23809523809524em")
                 .setTop("25.142857142857142em")
-                .setWidth("11.885714285714286em")
+                .setWidth("12.647619047619047em")
                 .setLabelSize("7em")
                 .setItems([
                     {
@@ -1385,7 +1385,7 @@ xui.Class('App', 'xui.Module',{
                 .setDirtyMark(false)
                 .setLeft("47.23809523809524em")
                 .setTop("43.42857142857143em")
-                .setWidth("11.885714285714286em")
+                .setWidth("12.647619047619047em")
                 .setLabelSize("7em")
                 .setItems([
                     {
@@ -1412,7 +1412,7 @@ xui.Class('App', 'xui.Module',{
                 .setDirtyMark(false)
                 .setLeft("55.61904761904762em")
                 .setTop("36.57142857142857em")
-                .setWidth("11.885714285714286em")
+                .setWidth("12.647619047619047em")
                 .setLabelSize("7em")
                 .setItems([
                     {
@@ -1439,7 +1439,7 @@ xui.Class('App', 'xui.Module',{
                 .setDirtyMark(false)
                 .setLeft("65.52380952380952em")
                 .setTop("25.142857142857142em")
-                .setWidth("11.885714285714286em")
+                .setWidth("12.647619047619047em")
                 .setLabelSize("7em")
                 .setItems([
                     {
@@ -1466,7 +1466,7 @@ xui.Class('App', 'xui.Module',{
                 .setDirtyMark(false)
                 .setLeft("65.52380952380952em")
                 .setTop("29.714285714285715em")
-                .setWidth("11.885714285714286em")
+                .setWidth("12.647619047619047em")
                 .setLabelSize("7em")
                 .setItems([
                     {
@@ -1493,7 +1493,7 @@ xui.Class('App', 'xui.Module',{
                 .setDirtyMark(false)
                 .setLeft("65.52380952380952em")
                 .setTop("32em")
-                .setWidth("11.885714285714286em")
+                .setWidth("12.647619047619047em")
                 .setLabelSize("7em")
                 .setItems([
                     {
@@ -1520,7 +1520,7 @@ xui.Class('App', 'xui.Module',{
                 .setDirtyMark(false)
                 .setLeft("65.52380952380952em")
                 .setTop("38.857142857142854em")
-                .setWidth("11.885714285714286em")
+                .setWidth("12.647619047619047em")
                 .setLabelSize("7em")
                 .setItems([
                     {
@@ -1547,7 +1547,7 @@ xui.Class('App', 'xui.Module',{
                 .setDirtyMark(false)
                 .setLeft("65.52380952380952em")
                 .setTop("41.142857142857146em")
-                .setWidth("11.885714285714286em")
+                .setWidth("12.647619047619047em")
                 .setLabelSize("7em")
                 .setItems([
                     {
