@@ -1426,11 +1426,10 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput273")
                 .setDirtyMark(false)
-                .setLeft("35.04761904761905em")
-                .setTop("23.61904761904762em")
-                .setWidth("18em")
+                .setLeft("32em")
+                .setTop("25.142857142857142em")
+                .setWidth("11.885714285714286em")
                 .setLabelSize("8em")
-                .setLabelCaption("Drop List Input")
                 .setType("listbox")
                 .setItems([
                     {
