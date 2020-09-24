@@ -1209,9 +1209,6 @@ xui.Class('App', 'xui.Module',{
                         "imageClass":"xui-icon-number3"
                     },
                     {
-                        "id":"d",
-                        "caption":"<5",
-                        "imageClass":"xui-icon-number4"
 
                     }
                 ])
