@@ -1417,17 +1417,17 @@ xui.Class('App', 'xui.Module',{
                 .setItems([
                     {
                         "id":"a",
-                        "caption":">30",
+                        "caption":"<30",
                         "imageClass":"xui-icon-number1"
                     },
                     {
                         "id":"b",
-                        "caption":">40",
+                        "caption":"<40",
                         "imageClass":"xui-icon-number2"
                     },
                     {
                         "id":"c",
-                        "caption":">50",
+                        "caption":"<50",
                         "imageClass":"xui-icon-number3"
                     }
                 ])
