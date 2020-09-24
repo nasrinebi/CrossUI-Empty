@@ -350,16 +350,6 @@ xui.Class('App', 'xui.Module',{
             
             append(
                 xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox9")
-                .setDirtyMark(false)
-                .setLeft("14.476190476190476em")
-                .setTop("31.923809523809524em")
-                .setWidth("12em")
-                .setCaption(">10")
-            );
-            
-            append(
-                xui.create("xui.UI.CheckBox")
                 .setHost(host,"xui_ui_checkbox12")
                 .setDirtyMark(false)
                 .setLeft("14.476190476190476em")
@@ -1240,6 +1230,33 @@ xui.Class('App', 'xui.Module',{
                     {
                         "id":"c",
                         "caption":">35",
+                        "imageClass":"xui-icon-number3"
+                    }
+                ])
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput93")
+                .setDirtyMark(false)
+                .setLeft("6.095238095238095em")
+                .setTop("32em")
+                .setWidth("11.885714285714286em")
+                .setLabelSize("7em")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":">5",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":">10",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":">15",
                         "imageClass":"xui-icon-number3"
                     }
                 ])
