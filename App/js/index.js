@@ -350,26 +350,6 @@ xui.Class('App', 'xui.Module',{
             
             append(
                 xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox7")
-                .setDirtyMark(false)
-                .setLeft("14.476190476190476em")
-                .setTop("27.35238095238095em")
-                .setWidth("12em")
-                .setCaption("<3")
-            );
-            
-            append(
-                xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox8")
-                .setDirtyMark(false)
-                .setLeft("14.476190476190476em")
-                .setTop("29.63809523809524em")
-                .setWidth("12em")
-                .setCaption(">25")
-            );
-            
-            append(
-                xui.create("xui.UI.CheckBox")
                 .setHost(host,"xui_ui_checkbox9")
                 .setDirtyMark(false)
                 .setLeft("14.476190476190476em")
@@ -1190,7 +1170,7 @@ xui.Class('App', 'xui.Module',{
                 .setDirtyMark(false)
                 .setLeft("6.095238095238095em")
                 .setTop("25.142857142857142em")
-                .setWidth("12.647619047619047em")
+                .setWidth("11.123809523809523em")
                 .setLabelSize("8em")
                 .setItems([
                     {
@@ -1209,8 +1189,68 @@ xui.Class('App', 'xui.Module',{
                         "imageClass":"xui-icon-number3"
                     },
                     {
-
+                        "id":"al",
+                        "caption":"al"
                     }
+                ])
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput46")
+                .setDirtyMark(false)
+                .setLeft("6.095238095238095em")
+                .setTop("27.428571428571427em")
+                .setWidth("11.123809523809523em")
+                .setLabelSize("8em")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":"<2",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":"<3",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":"<4",
+                        "imageClass":"xui-icon-number3"
+                    },
+                    {
+                        "id":"al",
+                        "caption":"al"
+                    }
+                ])
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput50")
+                .setDirtyMark(false)
+                .setLeft("6.095238095238095em")
+                .setTop("29.714285714285715em")
+                .setWidth("11.123809523809523em")
+                .setLabelSize("8em")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":">25",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":">30",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":">35",
+                        "imageClass":"xui-icon-number3"
+                    }
+
                 ])
             );
             
