@@ -1220,8 +1220,7 @@ xui.Class('App', 'xui.Module',{
                         "imageClass":"xui-icon-number3"
                     },
                     {
-                        "id":"al",
-                        "caption":"al"
+
                     }
                 ])
             );
