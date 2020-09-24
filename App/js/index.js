@@ -350,16 +350,6 @@ xui.Class('App', 'xui.Module',{
             
             append(
                 xui.create("xui.UI.CheckBox")
-                .setHost(host,"xui_ui_checkbox12")
-                .setDirtyMark(false)
-                .setLeft("14.476190476190476em")
-                .setTop("38.78095238095238em")
-                .setWidth("12em")
-                .setCaption("<5")
-            );
-            
-            append(
-                xui.create("xui.UI.CheckBox")
                 .setHost(host,"xui_ui_checkbox13")
                 .setDirtyMark(false)
                 .setLeft("14.476190476190476em")
@@ -382,9 +372,9 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input129")
                 .setDirtyMark(false)
-                .setLeft("13.714285714285714em")
+                .setLeft("12.952380952380953em")
                 .setTop("34.285714285714285em")
-                .setWidth("4.647619047619048em")
+                .setWidth("3.8857142857142857em")
                 .setValue("    NA")
             );
             
@@ -392,9 +382,9 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input132")
                 .setDirtyMark(false)
-                .setLeft("13.714285714285714em")
-                .setTop("36.49523809523809em")
-                .setWidth("4.647619047619048em")
+                .setLeft("12.952380952380953em")
+                .setTop("36.57142857142857em")
+                .setWidth("3.8857142857142857em")
                 .setValue("    NA")
             );
             
@@ -1257,6 +1247,33 @@ xui.Class('App', 'xui.Module',{
                     {
                         "id":"c",
                         "caption":">15",
+                        "imageClass":"xui-icon-number3"
+                    }
+                ])
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput120")
+                .setDirtyMark(false)
+                .setLeft("6.095238095238095em")
+                .setTop("38.857142857142854em")
+                .setWidth("11.885714285714286em")
+                .setLabelSize("7em")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":"<3",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":"<4",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":"<5",
                         "imageClass":"xui-icon-number3"
                     }
                 ])
